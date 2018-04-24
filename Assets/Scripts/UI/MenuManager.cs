@@ -28,6 +28,7 @@ public class MenuManager : MonoBehaviour {
 				currentSelect = 0;
 			}
 			buttons [currentSelect].SelectButton ();
+			AkSoundEngine.PostEvent ("SFX_Death_Drone", gameObject);
 		}
 
 		if (player.GetButtonDown ("Previous"))

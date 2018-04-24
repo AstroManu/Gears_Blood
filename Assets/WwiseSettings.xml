@@ -8,6 +8,6 @@
   <ShowMissingRigidBodyWarning>true</ShowMissingRigidBodyWarning>
   <SoundbankPath>Audio/GeneratedSoundBanks</SoundbankPath>
   <WwiseInstallationPathMac />
-  <WwiseInstallationPathWindows />
+  <WwiseInstallationPathWindows>C:\Program Files (x86)\Audiokinetic</WwiseInstallationPathWindows>
   <WwiseProjectPath>../../Wwise/GearsAndBloodAudio/GearsAndBlood_Integration/GearsAndBlood_Integration.wproj</WwiseProjectPath>
 </WwiseSettings>

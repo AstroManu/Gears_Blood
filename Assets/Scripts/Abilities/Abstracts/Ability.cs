@@ -20,7 +20,6 @@ public class Ability : ScriptableObject {
 			evObj.transform.position = ev.eventPosition.eventPos (caster, target); //Place EventObject
 			ev.eventRotation.eventRotation (caster, target, evObj.transform); //Rotate EventObject
 			EventCaster evCaster = evObj.AddComponent<EventCaster> (); //Add EventCaster monobehavior
-			evCaster.aS = evObj.AddComponent<AudioSource>(); //Add AudioSource to event object
 			evCaster.caster = caster; //Pass caster ref to event
 			evCaster.target = target; //Pass target location to event
 			evCaster.startTime = Time.time + ev.startTime; //When event start

@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f405814d7d49f645a6186147e9eb7fb, type: 3}
-  m_Name: AudioClipPlay
+  m_Script: {fileID: 11500000, guid: 5965255e3e34d1548b2ddcec9e6256c7, type: 3}
+  m_Name: AudioEventPlay_Template
   m_EditorClassIdentifier: 
-  soundFx: {fileID: 0}
+  eventName: 

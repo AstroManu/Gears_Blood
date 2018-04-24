@@ -42,4 +42,4 @@ MonoBehaviour:
   hitAreaRadius: 0.5
   spritePrefab: {fileID: 1916259896012000, guid: f089a40833bd1cb4380a80433ee57ed1,
     type: 2}
-  deathFx: {fileID: 11400000, guid: 0125c52ff73ebfa49991ca18fc3ace42, type: 2}
+  deathFx: {fileID: 11400000, guid: 2bd0e9541e6cb0a4c899d0e5f9bbc30a, type: 2}

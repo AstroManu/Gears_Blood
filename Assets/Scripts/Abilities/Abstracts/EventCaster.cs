@@ -15,7 +15,6 @@ public class EventCaster : MonoBehaviour {
 	public List<GameUnit> acquiredUnits;
 
 	private bool castIsTriggered = false;
-	public AudioSource aS;
 
 	void Start ()
 	{
