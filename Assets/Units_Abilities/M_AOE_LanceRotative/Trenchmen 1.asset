@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 713d08dfe3511ca49acbd8d84788c58c, type: 3}
+  m_Name: Trenchmen 1
+  m_EditorClassIdentifier: 
+  abilityName: New Ability
+  abilityDescription: Description
+  allowFriendlyFire: 1
+  abilityEvents:
+  - startTime: 1
+    endTime: 20
+    eventPosition: {fileID: 11400000, guid: 99e3d49c0bb65904caf9a5e6fb4c804c, type: 2}
+    eventRotation: {fileID: 11400000, guid: 7314d0f78b2228942b4a70db0c97ffc9, type: 2}
+    effect:
+    - {fileID: 11400000, guid: 1d03c742543f5c344963364e84b50549, type: 2}
+    - {fileID: 11400000, guid: 0cd3e165409775e40a3d624de99280e8, type: 2}
+    eventInterrupt:
+    - {fileID: 11400000, guid: 1a24b65c79030c04ca024b77ac0cc358, type: 2}

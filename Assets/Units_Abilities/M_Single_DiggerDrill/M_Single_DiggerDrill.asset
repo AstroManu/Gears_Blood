@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 713d08dfe3511ca49acbd8d84788c58c, type: 3}
+  m_Name: M_Single_DiggerDrill
+  m_EditorClassIdentifier: 
+  abilityName: Drill
+  abilityDescription: Demolish foes by drilling through them.
+  allowFriendlyFire: 0
+  abilityEvents:
+  - startTime: 0.2
+    endTime: 1
+    eventPosition: {fileID: 11400000, guid: 88ef8958ec8438549b1ca926d2114d7b, type: 2}
+    eventRotation: {fileID: 11400000, guid: 7314d0f78b2228942b4a70db0c97ffc9, type: 2}
+    effect:
+    - {fileID: 11400000, guid: 41ee3c5d660c1ce4296cd47aa5b537a0, type: 2}
+    - {fileID: 11400000, guid: 4f1680823a3052146bcee38235111ce4, type: 2}
+    eventInterrupt:
+    - {fileID: 11400000, guid: 1a24b65c79030c04ca024b77ac0cc358, type: 2}
+  - startTime: 0.4
+    endTime: 1
+    eventPosition: {fileID: 11400000, guid: 88ef8958ec8438549b1ca926d2114d7b, type: 2}
+    eventRotation: {fileID: 11400000, guid: 7314d0f78b2228942b4a70db0c97ffc9, type: 2}
+    effect:
+    - {fileID: 11400000, guid: 41ee3c5d660c1ce4296cd47aa5b537a0, type: 2}
+    - {fileID: 11400000, guid: f50189abfc4f1a849b656eaeb954404c, type: 2}
+    eventInterrupt:
+    - {fileID: 11400000, guid: 1a24b65c79030c04ca024b77ac0cc358, type: 2}
+  - startTime: 0.6
+    endTime: 1
+    eventPosition: {fileID: 11400000, guid: 88ef8958ec8438549b1ca926d2114d7b, type: 2}
+    eventRotation: {fileID: 11400000, guid: 7314d0f78b2228942b4a70db0c97ffc9, type: 2}
+    effect:
+    - {fileID: 11400000, guid: 41ee3c5d660c1ce4296cd47aa5b537a0, type: 2}
+    - {fileID: 11400000, guid: f50189abfc4f1a849b656eaeb954404c, type: 2}
+    eventInterrupt:
+    - {fileID: 11400000, guid: 1a24b65c79030c04ca024b77ac0cc358, type: 2}
+  - startTime: 0.8
+    endTime: 1
+    eventPosition: {fileID: 11400000, guid: 88ef8958ec8438549b1ca926d2114d7b, type: 2}
+    eventRotation: {fileID: 11400000, guid: 7314d0f78b2228942b4a70db0c97ffc9, type: 2}
+    effect:
+    - {fileID: 11400000, guid: 41ee3c5d660c1ce4296cd47aa5b537a0, type: 2}
+    - {fileID: 11400000, guid: f50189abfc4f1a849b656eaeb954404c, type: 2}
+    eventInterrupt:
+    - {fileID: 11400000, guid: 1a24b65c79030c04ca024b77ac0cc358, type: 2}

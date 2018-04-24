@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 713d08dfe3511ca49acbd8d84788c58c, type: 3}
+  m_Name: R_Single_RangerMetalBolt
+  m_EditorClassIdentifier: 
+  abilityName: Metalloid Bolt
+  abilityDescription: A crossbow bolt that does moderate amount of damages. Can be
+    reloaded and fired quickly. The tip is loaded with a small canister of liquid
+    metal, which slow anything hit for a short duration.
+  allowFriendlyFire: 0
+  abilityEvents:
+  - startTime: 0.5
+    endTime: 2
+    eventPosition: {fileID: 11400000, guid: 88ef8958ec8438549b1ca926d2114d7b, type: 2}
+    eventRotation: {fileID: 11400000, guid: 7314d0f78b2228942b4a70db0c97ffc9, type: 2}
+    effect:
+    - {fileID: 11400000, guid: 96cbdbb18a487b949a6135705b370644, type: 2}
+    - {fileID: 11400000, guid: 72f427c25f4a3534eb6363288c462792, type: 2}
+    eventInterrupt:
+    - {fileID: 11400000, guid: 1a24b65c79030c04ca024b77ac0cc358, type: 2}

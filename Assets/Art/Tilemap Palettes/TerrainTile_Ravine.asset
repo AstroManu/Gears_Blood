@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e4e4fc705376343a3e65b25d94f0e2, type: 3}
+  m_Name: TerrainTile_Ravine
+  m_EditorClassIdentifier: 
+  m_Sprites:
+  - {fileID: 21300044, guid: d241ee6dc0d4ea140b74207493b9f7a5, type: 3}
+  - {fileID: 21300098, guid: d241ee6dc0d4ea140b74207493b9f7a5, type: 3}
+  - {fileID: 21300090, guid: d241ee6dc0d4ea140b74207493b9f7a5, type: 3}
+  - {fileID: 21300072, guid: d241ee6dc0d4ea140b74207493b9f7a5, type: 3}
+  - {fileID: 21300054, guid: d241ee6dc0d4ea140b74207493b9f7a5, type: 3}
+  - {fileID: 21300066, guid: d241ee6dc0d4ea140b74207493b9f7a5, type: 3}
+  - {fileID: 21300024, guid: d241ee6dc0d4ea140b74207493b9f7a5, type: 3}
+  - {fileID: 21300096, guid: d241ee6dc0d4ea140b74207493b9f7a5, type: 3}
+  - {fileID: 21300036, guid: d241ee6dc0d4ea140b74207493b9f7a5, type: 3}
+  - {fileID: 21300050, guid: d241ee6dc0d4ea140b74207493b9f7a5, type: 3}
+  - {fileID: 21300034, guid: d241ee6dc0d4ea140b74207493b9f7a5, type: 3}
+  - {fileID: 21300052, guid: d241ee6dc0d4ea140b74207493b9f7a5, type: 3}
+  - {fileID: 21300062, guid: d241ee6dc0d4ea140b74207493b9f7a5, type: 3}
+  - {fileID: 21300082, guid: d241ee6dc0d4ea140b74207493b9f7a5, type: 3}
+  - {fileID: 21300076, guid: 3d6215057758d7347a86062a67b97491, type: 3}

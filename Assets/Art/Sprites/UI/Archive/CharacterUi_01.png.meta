@@ -1,0 +1,1143 @@
+fileFormatVersion: 2
+guid: b36c61475ae744b5e90751a8a60fddd2
+timeCreated: 1519229732
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Vignette_Cooldown
+    21300002: Gear_0
+    21300004: Gears_0
+    21300006: Gears_1
+    21300008: Gear_1
+    21300010: Alert_2
+    21300012: Alert_1
+    21300014: Alert_0
+    21300016: Vignette_Back
+    21300018: ShieldBar_Base
+    21300020: ShieldBar_0
+    21300022: Vignette_CooldownBack
+    21300024: ShieldBar_1
+    21300026: ShieldBar_Back
+    21300028: ArmorBar_Base
+    21300030: CharacterUi_01_23
+    21300032: ArmorBar_0
+    21300034: ArmorBar_1
+    21300036: ArmorBar_Back
+    21300038: Vignette_Base
+    21300040: HealthBar_Base
+    21300042: HealthBar_Divider
+    21300044: HealthBar_Back
+    21300046: HealthBar_1
+    21300048: HealthBar_0
+    21300050: Vignette_LeftBar
+    21300052: Vignette_RightBar
+    21300054: Effet_EMD
+    21300056: Effet_Blaze
+    21300058: Effet_Crystal
+    21300060: Effet_Terrain
+    21300062: Shield_1
+    21300064: Shield_2
+    21300066: Shield_3
+    21300068: Vignette_Exemple
+    21300070: LifeBar_Exemple
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vignette_Cooldown
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2002
+        width: 390
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -195, y: -183.93257}
+        - {x: -171.93263, y: -196}
+        - {x: 124.79064, y: -196}
+        - {x: 195, y: -149.73921}
+        - {x: 195, y: 76.181206}
+        - {x: 128.45389, y: 196}
+        - {x: -173.15372, y: 196}
+        - {x: -195, y: 128.69243}
+      - - {x: -142.62663, y: -100.89155}
+        - {x: -22.960453, y: 175.0977}
+        - {x: 154.09665, y: -83.79487}
+        - {x: -16.855036, y: -174.16304}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gear_0
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 2199
+        width: 196
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -97.86085, y: 98}
+        - {x: -97.86085, y: -77.30073}
+        - {x: -61.228344, y: -98}
+        - {x: 98, y: -98}
+        - {x: 98, y: 98}
+      - - {x: -24.595842, y: -21.125925}
+        - {x: -16.048258, y: 24.058157}
+        - {x: 20.584244, y: 24.058157}
+        - {x: 10.815577, y: -32.11665}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gears_0
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 2199
+        width: 195
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 56.052753, y: 103}
+        - {x: -1.3381685, y: 103}
+        - {x: -97.5, y: 25.279348}
+        - {x: -97.5, y: -89.51264}
+        - {x: -77.04534, y: -102.94575}
+        - {x: 51.16842, y: -102.94575}
+        - {x: 97.5, y: -63.867626}
+        - {x: 97.5, y: 58.251514}
+        - {x: 84.13767, y: 91.22369}
+      - - {x: -48.960423, y: -32.11665}
+        - {x: -19.654419, y: -21.125925}
+        - {x: -12.327919, y: -32.11665}
+        - {x: -17.212254, y: -52.876904}
+      - - {x: 59.716003, y: -24.7895}
+        - {x: 60.937084, y: -10.135203}
+        - {x: 70.70575, y: -13.798778}
+        - {x: 68.26359, y: -23.568308}
+      - - {x: 20.641333, y: -10.135203}
+        - {x: 30.41, y: -0.3656717}
+        - {x: 32.852165, y: -5.2504373}
+        - {x: 24.304583, y: -8.914012}
+      - - {x: 13.314833, y: 17.9522}
+        - {x: 21.862417, y: 9.403859}
+        - {x: 21.862417, y: 10.625051}
+      - - {x: 52.389503, y: 17.9522}
+        - {x: 53.610584, y: 16.731009}
+        - {x: 49.947334, y: 10.625051}
+        - {x: 49.947334, y: 11.846242}
+      - - {x: 20.641333, y: 48.481983}
+        - {x: 26.74675, y: 65.57867}
+        - {x: 45.063, y: 49.703175}
+        - {x: 36.51542, y: 41.154835}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gears_1
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 2199
+        width: 194
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96.811104, y: -89.51264}
+        - {x: -87.04244, y: -102.94575}
+        - {x: 52.16107, y: -102.94575}
+        - {x: 97, y: -46.770947}
+        - {x: 97, y: 103}
+        - {x: -23.5461, y: 103}
+        - {x: -96.811104, y: 66.79986}
+      - - {x: -41.862354, y: -22.347116}
+        - {x: -19.88285, y: -19.904734}
+        - {x: -10.114183, y: -44.328564}
+        - {x: -24.767185, y: -57.76167}
+      - - {x: 57.045403, y: -19.904734}
+        - {x: 66.81407, y: -10.135203}
+        - {x: 71.6984, y: -21.125925}
+        - {x: 65.59299, y: -26.01069}
+      - - {x: 20.4129, y: -10.135203}
+        - {x: 28.960485, y: -0.3656717}
+        - {x: 33.84482, y: -0.3656717}
+        - {x: 27.739403, y: -10.135203}
+      - - {x: 14.307485, y: 17.9522}
+        - {x: 13.086401, y: 17.9522}
+        - {x: 16.749651, y: 15.509816}
+        - {x: 22.855068, y: 9.403859}
+        - {x: 22.855068, y: 10.625051}
+      - - {x: 46.055653, y: 13.067433}
+        - {x: 53.382153, y: 17.9522}
+        - {x: 54.603237, y: 11.846242}
+        - {x: 50.939987, y: 11.846242}
+      - - {x: 22.855068, y: 61.91509}
+        - {x: 46.055653, y: 59.472706}
+        - {x: 41.171318, y: 43.597218}
+        - {x: 30.181568, y: 42.376026}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gear_1
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 2199
+        width: 198
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 87.84049, y: 98}
+        - {x: -98.98527, y: 98}
+        - {x: -98.98527, y: -72.41596}
+        - {x: -59.9106, y: -83.406685}
+        - {x: -56.24735, y: -82.18549}
+        - {x: -25.720263, y: -98}
+        - {x: 35.333908, y: -98}
+        - {x: 91.503746, y: -61.425243}
+        - {x: 99, y: -24.7895}
+        - {x: 99, y: 21.615774}
+      - - {x: -18.39376, y: -28.453074}
+        - {x: -29.383512, y: 11.846242}
+        - {x: 26.786325, y: 16.731009}
+        - {x: 30.449575, y: -15.019969}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alert_2
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1931
+        width: 254
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.658836, y: 116}
+        - {x: -57.090755, y: 109.59299}
+        - {x: -126.69251, y: -67.47977}
+        - {x: -126.69251, y: -116}
+        - {x: 127, y: -116}
+        - {x: 127, y: -23.516878}
+        - {x: 45.48025, y: 116}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alert_1
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1944
+        width: 255
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.827213, y: 87}
+        - {x: -30.827213, y: 87}
+        - {x: -49, y: 87}
+        - {x: -49, y: -86.841286}
+        - {x: 36.332375, y: -86.841286}
+        - {x: 49, y: -66.08103}
+        - {x: 49, y: -55.090313}
+        - {x: -3.9633787, y: 37.720234}
+      - - {x: -45.480213, y: 84.12551}
+        - {x: -45.480213, y: 87}
+        - {x: -49, y: 87}
+        - {x: -49, y: 82.90432}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alert_0
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1944
+        width: 252
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.834564, y: 87}
+        - {x: -48, y: -47.763165}
+        - {x: -48, y: -63.638653}
+        - {x: -37.20936, y: -86.841286}
+        - {x: 48, y: -86.841286}
+        - {x: 48, y: 4.7480674}
+        - {x: 43.38215, y: 87}
+      - - {x: 45.824314, y: 87}
+        - {x: 45.824314, y: 86.567894}
+        - {x: 48, y: 84.12551}
+        - {x: 48, y: 84.12551}
+        - {x: 48, y: 87}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Vignette_Back
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1624
+        width: 337
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 85.29429, y: 168.5}
+        - {x: -112.521225, y: 168.5}
+        - {x: -119.847725, y: 168.5}
+        - {x: -168.5, y: 106.6697}
+        - {x: -168.5, y: -81.393776}
+        - {x: -117.40556, y: -168.09837}
+        - {x: 107.27379, y: -168.09837}
+        - {x: 168.5, y: -77.7302}
+        - {x: 168.5, y: 84.688255}
+        - {x: 168.32796, y: 88.35183}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShieldBar_Base
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1690
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.3719025, y: 23}
+        - {x: -24.909237, y: -12.951456}
+        - {x: -24.909237, y: -22.720987}
+        - {x: 25, y: -22.720987}
+        - {x: 25, y: -15.393839}
+        - {x: 8.060015, y: 23}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShieldBar_0
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1609
+        width: 695
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -347.5, y: 20}
+        - {x: -347.5, y: -20}
+        - {x: 347.5, y: -20}
+        - {x: 347.5, y: 20}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Vignette_CooldownBack
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1189
+        width: 391
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 123.01171, y: 196}
+        - {x: -165.16397, y: 196}
+        - {x: -195.5, y: 122.8999}
+        - {x: -195.5, y: -118.895996}
+        - {x: -138.30014, y: -157.97412}
+        - {x: -55.26647, y: -195.83105}
+        - {x: 99.81112, y: -195.83105}
+        - {x: 195.5, y: -101.79932}
+        - {x: 195.5, y: 70.38867}
+        - {x: 151.09662, y: 186.40186}
+      - - {x: -89.45681, y: 150.9873}
+        - {x: 115.6852, y: 133.89062}
+        - {x: 170.63396, y: -43.18213}
+        - {x: 26.546118, y: -173.84961}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShieldBar_1
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1545
+        width: 695
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -347.5, y: 21}
+        - {x: -347.5, y: -21}
+        - {x: 347.5, y: -21}
+        - {x: 347.5, y: 21}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShieldBar_Back
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1483
+        width: 695
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -347.5, y: 21}
+        - {x: -347.5, y: -20.897251}
+        - {x: 347.5, y: -20.897251}
+        - {x: 347.5, y: 21}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ArmorBar_Base
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1405
+        width: 717
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -358.3323, y: 16.5}
+        - {x: -358.3323, y: 5.5145917}
+        - {x: -344.9004, y: -16.466854}
+        - {x: 358.5, y: -16.466854}
+        - {x: 358.5, y: 0.6298259}
+        - {x: 349.89606, y: 16.5}
+      - - {x: -332.68954, y: 5.5145917}
+        - {x: -285.0673, y: 5.5145917}
+        - {x: -282.62512, y: -0.5913655}
+        - {x: -280.18298, y: -3.0337484}
+      - - {x: -263.0878, y: 1.8510172}
+        - {x: -216.68663, y: 0.6298259}
+        - {x: -214.24446, y: -1.8125569}
+        - {x: -261.86673, y: -1.8125569}
+      - - {x: -197.14929, y: 4.2934003}
+        - {x: -199.59146, y: 5.5145917}
+        - {x: -151.96921, y: 5.5145917}
+      - - {x: -132.43188, y: 5.5145917}
+        - {x: -84.80962, y: 5.5145917}
+        - {x: -84.80962, y: 4.2934003}
+        - {x: -81.14638, y: -1.8125569}
+      - - {x: -17.650036, y: 3.0722086}
+        - {x: -13.986786, y: -1.8125569}
+        - {x: -61.60904, y: -1.8125569}
+      - - {x: 4.329465, y: 0.6298259}
+        - {x: 0.6662149, y: 5.5145917}
+        - {x: 48.288467, y: 5.5145917}
+        - {x: 53.172802, y: -1.8125569}
+      - - {x: 70.26797, y: 3.0722086}
+        - {x: 66.60472, y: 6.735783}
+        - {x: 119.111305, y: -1.8125569}
+        - {x: 71.48905, y: -1.8125569}
+      - - {x: 137.42755, y: 0.6298259}
+        - {x: 133.76431, y: 6.735783}
+        - {x: 181.38657, y: 5.5145917}
+        - {x: 186.27089, y: -1.8125569}
+      - - {x: 200.92389, y: 5.5145917}
+        - {x: 249.76723, y: 0.6298259}
+        - {x: 252.2094, y: -1.8125569}
+        - {x: 205.80823, y: -1.8125569}
+      - - {x: 266.8624, y: 5.5145917}
+        - {x: 312.04248, y: 5.5145917}
+        - {x: 315.70575, y: -1.8125569}
+        - {x: 271.74673, y: -1.8125569}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterUi_01_23
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1352
+        width: 695
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -347.5, y: 10}
+        - {x: -347.5, y: -10}
+        - {x: 347.5, y: -10}
+        - {x: 347.5, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ArmorBar_0
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1305
+        width: 695
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -347.5, y: 10.5}
+        - {x: -347.5, y: -10.223155}
+        - {x: 347.5, y: -10.223155}
+        - {x: 347.5, y: 10.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ArmorBar_1
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1257
+        width: 695
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -347.5, y: 10.5}
+        - {x: -347.5, y: -10.5}
+        - {x: 347.5, y: -10.5}
+        - {x: 347.5, y: 10.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ArmorBar_Back
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1212
+        width: 695
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -347.5, y: 10.5}
+        - {x: -347.5, y: -10.412624}
+        - {x: 347.5, y: -10.412624}
+        - {x: 347.5, y: 10.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Vignette_Base
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 755
+        width: 408
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 121.11713, y: 199.96852}
+        - {x: 101.57979, y: 204}
+        - {x: -81.582726, y: 204}
+        - {x: -196.36456, y: 120.59109}
+        - {x: -203.69107, y: 109.600365}
+        - {x: -203.69107, y: -78.46311}
+        - {x: -169.50073, y: -182.26439}
+        - {x: -103.562225, y: -204}
+        - {x: 113.79063, y: -204}
+        - {x: 168.73938, y: -188.37035}
+        - {x: 204, y: -84.56907}
+        - {x: 204, y: 115.70632}
+      - - {x: -32.739388, y: -185.92796}
+        - {x: -33.96047, y: -184.70677}
+        - {x: -38.844803, y: -183.48558}
+        - {x: -52.276722, y: -179.822}
+        - {x: -66.92972, y: -174.93724}
+        - {x: -43.729137, y: -181.0432}
+        - {x: -24.191803, y: -184.70677}
+        - {x: -15.644218, y: -185.92796}
+        - {x: -11.980968, y: -185.92796}
+        - {x: -9.538801, y: -188.37035}
+        - {x: -9.538801, y: -187.14915}
+      - - {x: 13.661783, y: -185.92796}
+        - {x: 17.325033, y: -185.92796}
+        - {x: 27.0937, y: -184.70677}
+        - {x: 51.51537, y: -179.822}
+        - {x: 68.610535, y: -173.71605}
+        - {x: 79.60029, y: -168.83128}
+        - {x: 96.69546, y: -160.28294}
+        - {x: 111.34846, y: -150.51341}
+        - {x: 101.57979, y: -159.06175}
+        - {x: 58.84187, y: -178.60081}
+        - {x: 35.641285, y: -184.70677}
+        - {x: 23.43045, y: -185.92796}
+        - {x: 22.209368, y: -187.14915}
+        - {x: 12.440701, y: -187.14915}
+        - {x: 11.219617, y: -188.37035}
+        - {x: 12.440701, y: -188.37035}
+      - - {x: -147.52122, y: 53.42556}
+        - {x: 19.7672, y: 158.44801}
+        - {x: 158.9707, y: 21.674582}
+        - {x: -52.276722, y: -89.453835}
+      - - {x: -154.84773, y: -104.10813}
+        - {x: -175.60614, y: -67.47239}
+        - {x: -176.82722, y: -60.14524}
+        - {x: -182.93265, y: -38.163795}
+        - {x: -184.15373, y: -33.27903}
+        - {x: -181.71156, y: -40.60618}
+        - {x: -176.82722, y: -56.481667}
+        - {x: -173.16399, y: -66.2512}
+        - {x: -159.73206, y: -95.55979}
+        - {x: -148.74231, y: -111.43528}
+      - - {x: 182.1713, y: -46.712135}
+        - {x: 190.71887, y: -10.076394}
+        - {x: 183.39238, y: -45.490944}
+        - {x: 177.28696, y: -65.03001}
+      - - {x: -187.81699, y: 16.789816}
+        - {x: -186.5959, y: 18.011007}
+        - {x: -182.93265, y: 38.771263}
+        - {x: -176.82722, y: 61.9739}
+        - {x: -170.72182, y: 77.84939}
+        - {x: -154.84773, y: 107.15798}
+        - {x: -140.19473, y: 125.47585}
+        - {x: -134.08931, y: 127.918236}
+        - {x: -138.97365, y: 123.03347}
+        - {x: -145.07906, y: 115.70632}
+        - {x: -152.40556, y: 105.93679}
+        - {x: -164.6164, y: 87.61892}
+        - {x: -171.9429, y: 70.52224}
+        - {x: -176.82722, y: 58.310326}
+        - {x: -181.71156, y: 39.992455}
+        - {x: -182.93265, y: 35.10769}
+        - {x: -184.15373, y: 14.347434}
+        - {x: -187.81699, y: 11.905051}
+      - - {x: 180.95021, y: 52.20437}
+        - {x: 176.06587, y: 66.858665}
+        - {x: 163.85504, y: 94.94607}
+        - {x: 144.3177, y: 120.59109}
+        - {x: 135.77013, y: 127.918236}
+        - {x: 138.2123, y: 130.36061}
+        - {x: 162.63396, y: 96.16726}
+        - {x: 176.06587, y: 69.30105}
+        - {x: 179.72913, y: 55.867943}
+        - {x: 184.61346, y: 36.32888}
+      - - {x: -102.34114, y: 157.22682}
+        - {x: -74.256226, y: 173.10231}
+        - {x: -46.171303, y: 182.87184}
+        - {x: -19.307468, y: 187.7566}
+        - {x: -35.181553, y: 184.09303}
+        - {x: -57.161053, y: 177.98708}
+        - {x: -70.59297, y: 173.10231}
+        - {x: -97.45681, y: 159.6692}
+        - {x: -115.773056, y: 146.2361}
+      - - {x: 113.79063, y: 149.89967}
+        - {x: 95.47437, y: 162.11159}
+        - {x: 72.27379, y: 173.10231}
+        - {x: 60.062954, y: 177.98708}
+        - {x: 36.86237, y: 184.09303}
+        - {x: 63.726204, y: 177.98708}
+        - {x: 104.02196, y: 158.44801}
+        - {x: 130.88579, y: 137.68776}
+        - {x: 128.44362, y: 135.24538}
+        - {x: 128.44362, y: 136.46657}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HealthBar_Base
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1053
+        width: 854
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -426.80524, y: 62.5}
+        - {x: -426.80524, y: -62.5}
+        - {x: 427, y: -62.5}
+        - {x: 427, y: 22.925066}
+        - {x: -176.48315, y: 62.5}
+      - - {x: -412.15225, y: 5.8283863}
+        - {x: 380.3309, y: 5.8283863}
+        - {x: 407.19473, y: -46.682842}
+        - {x: -412.15225, y: -46.682842}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HealthBar_Divider
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 1066
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.386457, y: 31}
+        - {x: -18.386457, y: 23.102535}
+        - {x: 1.1508771, y: -30.629887}
+        - {x: 18.5, y: -30.629887}
+        - {x: 18.5, y: 31}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HealthBar_Back
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 970
+        width: 838
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -419, y: 33}
+        - {x: -419, y: -33}
+        - {x: 419, y: -33}
+        - {x: 419, y: 33}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HealthBar_1
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 891
+        width: 838
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -417.9736, y: 33.5}
+        - {x: -419, y: 33.5}
+        - {x: -419, y: -33.44189}
+        - {x: 419, y: -33.44189}
+        - {x: 419, y: 33.5}
+        - {x: 418.46854, y: 33.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HealthBar_0
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 807
+        width: 838
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -419, y: 33}
+        - {x: -419, y: -32.56908}
+        - {x: 419, y: -32.56908}
+        - {x: 419, y: 33}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Vignette_LeftBar
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 626
+        width: 28
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 62}
+        - {x: -14, y: -62}
+        - {x: 14, y: -62}
+        - {x: 14, y: 62}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Vignette_RightBar
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 626
+        width: 30
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.948732, y: 62}
+        - {x: -14.948732, y: -62}
+        - {x: 15, y: -62}
+        - {x: 15, y: 62}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effet_EMD
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 633
+        width: 163
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.97361, y: 83}
+        - {x: -81.5, y: 52.323475}
+        - {x: -81.5, y: -22.1692}
+        - {x: -37.742275, y: -83}
+        - {x: 48.954647, y: -83}
+        - {x: 81.5, y: -23.390392}
+        - {x: 81.5, y: 53.544666}
+        - {x: 45.291397, y: 83}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effet_Blaze
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 633
+        width: 163
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.704193, y: 83}
+        - {x: -81.5, y: 29.120838}
+        - {x: -81.5, y: -23.390392}
+        - {x: -79.21078, y: -34.381115}
+        - {x: -29.14636, y: -73.459236}
+        - {x: -19.377693, y: -82.007576}
+        - {x: -16.935526, y: -83}
+        - {x: 19.696976, y: -83}
+        - {x: 81.5, y: -33.159924}
+        - {x: 81.5, y: 19.351307}
+        - {x: 27.023476, y: 83}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effet_Crystal
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 633
+        width: 164
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.266424, y: 83}
+        - {x: -81.65735, y: 40.11156}
+        - {x: -81.65735, y: -40.487072}
+        - {x: -20.603174, y: -83}
+        - {x: 33.124496, y: -83}
+        - {x: 82, y: -49.03541}
+        - {x: 82, y: 35.226795}
+        - {x: 62.430496, y: 83}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Effet_Terrain
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 636
+        width: 168
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42.94146, y: 81.5}
+        - {x: -25.439213, y: 81.5}
+        - {x: -84, y: 54.10227}
+        - {x: -84, y: -26.496365}
+        - {x: -46.19763, y: -81.44998}
+        - {x: 33.17279, y: -81.44998}
+        - {x: 84, y: -57.02615}
+        - {x: 84, y: 18.687717}
+        - {x: 57.59446, y: 62.650608}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Shield_1
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 660
+        width: 85
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 55.5}
+        - {x: -42.5, y: -15.318856}
+        - {x: -36.485977, y: -45.84864}
+        - {x: -19.39081, y: -55.5}
+        - {x: 11.136274, y: -55.5}
+        - {x: 41.66336, y: -25.088388}
+        - {x: 42.5, y: -17.76124}
+        - {x: 42.5, y: 54.289055}
+        - {x: 36.779026, y: 55.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Shield_2
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 660
+        width: 86
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.38355, y: 55.5}
+        - {x: -42.825714, y: 46.961906}
+        - {x: -42.825714, y: -10.434091}
+        - {x: -35.499214, y: -26.30958}
+        - {x: -11.077546, y: -51.954597}
+        - {x: -6.193212, y: -55.5}
+        - {x: 6.017622, y: -55.5}
+        - {x: 30.439291, y: -37.3003}
+        - {x: 43, y: -23.867197}
+        - {x: 43, y: 55.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Shield_3
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 660
+        width: 84
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.775898, y: 55.5}
+        - {x: -41.775898, y: -22.646006}
+        - {x: -13.69098, y: -55.5}
+        - {x: 15.615022, y: -55.5}
+        - {x: 42, y: -17.76124}
+        - {x: 42, y: 46.961906}
+        - {x: 31.489105, y: 55.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Vignette_Exemple
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 91
+        width: 429
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 87.30601, y: 204}
+        - {x: -90.97217, y: 204}
+        - {x: -148.36308, y: 167.32446}
+        - {x: -214.30159, y: 111.14966}
+        - {x: -214.30159, y: -84.24097}
+        - {x: -191.10101, y: -166.06079}
+        - {x: -139.8155, y: -203.91772}
+        - {x: 101.959015, y: -203.91772}
+        - {x: 161.7921, y: -189.26343}
+        - {x: 214.5, y: -106.22241}
+        - {x: 214.5, y: 67.18677}
+        - {x: 200.86678, y: 161.2185}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LifeBar_Exemple
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 65
+        width: 874
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 437, y: 102.85693}
+        - {x: 385.14203, y: 145}
+        - {x: -418.33084, y: 145}
+        - {x: -418.33084, y: 21.037107}
+        - {x: -417.10977, y: 18.594725}
+        - {x: -436.6471, y: -4.6079125}
+        - {x: -436.6471, y: -91.3125}
+        - {x: -404.89893, y: -145}
+        - {x: 68.88143, y: -145}
+        - {x: 127.49344, y: -81.54297}
+        - {x: 127.49344, y: -36.35889}
+        - {x: 437, y: 16.152342}
+      - - {x: 194.65303, y: 1.4980446}
+        - {x: 134.81993, y: 1.4980446}
+        - {x: 123.830185, y: -7.0502954}
+        - {x: 123.830185, y: -63.2251}
+        - {x: 126.272354, y: -85.20654}
+        - {x: 161.68378, y: -113.293945}
+        - {x: 180.00002, y: -113.293945}
+        - {x: 209.30603, y: -77.879395}
+        - {x: 212.96927, y: -59.561527}
+        - {x: 212.96927, y: -5.829104}
+      - - {x: 248.38069, y: 1.4980446}
+        - {x: 230.06444, y: -5.829104}
+        - {x: 230.06444, y: -80.32178}
+        - {x: 253.26503, y: -113.293945}
+        - {x: 294.78186, y: -113.293945}
+        - {x: 314.31918, y: -87.648926}
+        - {x: 319.20352, y: -59.561527}
+        - {x: 319.20352, y: -5.829104}
+        - {x: 309.43488, y: 1.4980446}
+      - - {x: 348.50952, y: 1.4980446}
+        - {x: 343.6252, y: -9.492678}
+        - {x: 343.6252, y: -77.879395}
+        - {x: 375.37338, y: -113.293945}
+        - {x: 409.5637, y: -113.293945}
+        - {x: 432.76428, y: -103.524414}
+        - {x: 432.76428, y: 1.4980446}
+      - - {x: -197.31476, y: 12.488768}
+        - {x: -202.19908, y: 17.373533}
+        - {x: -203.42017, y: 17.373533}
+        - {x: -203.42017, y: 16.152342}
+        - {x: -114.28108, y: 16.152342}
+        - {x: -114.28108, y: 17.373533}
+        - {x: -126.49191, y: 5.1616187}
+      - - {x: -327.97067, y: 13.709959}
+        - {x: -331.63394, y: 17.373533}
+        - {x: -331.63394, y: 16.152342}
+        - {x: -247.37917, y: 16.152342}
+        - {x: -247.37917, y: 17.373533}
+        - {x: -251.04242, y: 13.709959}
+        - {x: -258.36893, y: 11.267576}
+      - - {x: -65.437744, y: 13.709959}
+        - {x: -69.101, y: 17.373533}
+        - {x: -69.101, y: 16.152342}
+        - {x: 15.153762, y: 16.152342}
+        - {x: 15.153762, y: 17.373533}
+        - {x: 10.269428, y: 12.488768}
+        - {x: 6.6061773, y: 10.046385}
+        - {x: -10.48899, y: -5.829104}
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

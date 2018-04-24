@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f801aa39ac7cac34d973c051c0205da6, type: 3}
+  m_Name: TestDialog
+  m_EditorClassIdentifier: 
+  dialogEvents:
+  - nameTag: Ranger
+    portrait: {fileID: 9100000, guid: 8e928d410b336574d9cac7c933f696ad, type: 2}
+    dialogText: Commander! Thank heaven you're still alive... I'd almost given up
+      hope.
+    tutorialText: Press the Right Trigger [R1] button on your gamepad to continue.
+  - nameTag: Commander
+    portrait: {fileID: 9100000, guid: 5e2eaf15af12c6e47aa7a6da0707f8ea, type: 2}
+    dialogText: Fear not, we have not breath our last. We will rally the survivors
+      and drive these machines from our homes.
+    tutorialText: 
+  - nameTag: Ranger
+    portrait: {fileID: 9100000, guid: 8e928d410b336574d9cac7c933f696ad, type: 2}
+    dialogText: We need to get back into the fight! Give the word and I'll be right
+      behind you.
+    tutorialText: Order the Ranger to follow you by pressing [A]

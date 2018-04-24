@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 389aaf16a439a40498944fa751004381, type: 3}
+  m_Name: PUntargetable_Template
+  m_EditorClassIdentifier: 
+  unitName: PUntargetable Template
+  unitDescription: Template for player mines and other untargetables
+  faction: {fileID: 11400000, guid: 286c300982e0cbe43a70140d1a857ba6, type: 2}
+  maxHealth: 200
+  maxArmor: 0
+  maxShield: 0
+  dmgReducArmor: 1
+  agentType: 0
+  moveSpeed: 5
+  moveAccelaration: 50
+  moveStoppingDistance: 0.5
+  agentPriority: 50
+  startState: {fileID: 11400000, guid: 4283fa0f96cb80e4f92097665afa9948, type: 2}
+  colliderRadius: 0.1
+  aggroRange: 15
+  ability:
+  - ability: {fileID: 11400000, guid: 0bc726a4449f1334282e680aaaf6f7a8, type: 2}
+    minRange: 0
+    maxRange: 6
+    coolDownDuration: 1.1
+    castLockDuration: 1
+    castAnimIndex: 01000000
+  - ability: {fileID: 11400000, guid: 0bc726a4449f1334282e680aaaf6f7a8, type: 2}
+    minRange: 3
+    maxRange: 10
+    coolDownDuration: 5
+    castLockDuration: 1
+    castAnimIndex: 01000000
+  hitAreaCenter: {x: 0, y: 0, z: 1}
+  hitAreaRadius: 0.5
+  spritePrefab: {fileID: 1325957962458012, guid: e5a1fbbe45334d840911951b78178f20,
+    type: 2}
+  deathFx: {fileID: 11400000, guid: 0125c52ff73ebfa49991ca18fc3ace42, type: 2}

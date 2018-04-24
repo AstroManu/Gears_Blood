@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 389aaf16a439a40498944fa751004381, type: 3}
+  m_Name: PObject_Mine_Neutral
+  m_EditorClassIdentifier: 
+  unitName: Mine
+  unitDescription: 
+  faction: {fileID: 11400000, guid: c2c2efaaa7e48e64f9c36fc90827e00e, type: 2}
+  maxHealth: 30
+  maxArmor: 0
+  maxShield: 0
+  dmgReducArmor: 1
+  agentType: 0
+  moveSpeed: 0
+  moveAccelaration: 0
+  moveStoppingDistance: 0
+  agentPriority: 0
+  startState: {fileID: 11400000, guid: 4283fa0f96cb80e4f92097665afa9948, type: 2}
+  colliderRadius: 0.1
+  aggroRange: 3
+  ability:
+  - ability: {fileID: 11400000, guid: 75fc6ae0e0abd19408daee5e029ccb2b, type: 2}
+    minRange: 0
+    maxRange: 2.8
+    coolDownDuration: 0
+    castLockDuration: 0
+    abilityUseCondition:
+      timer: 0
+      activeRadius: 10
+      minHealth: 0
+      maxHealth: 1
+    castAnimIndex: 01000000
+  hitAreaCenter: {x: 0, y: 0, z: 1}
+  hitAreaRadius: 0.5
+  spritePrefab: {fileID: 1325957962458012, guid: bf06a7f9f0dd167489e19056fee98cc7,
+    type: 2}
+  deathFx: {fileID: 11400000, guid: 3e513fbe20cca1c4194cbc3d2db9624e, type: 2}

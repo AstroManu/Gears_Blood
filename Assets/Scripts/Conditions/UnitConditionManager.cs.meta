@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: adb69c190d0d69747a31e6d7cab530c0
+timeCreated: 1521657596
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - unit: {instanceID: 0}
+  - blazeCall: {fileID: 11400000, guid: 0eaa71e4d363e264ca89f29a280b748f, type: 2}
+  - slowCall: {fileID: 11400000, guid: ece15facb42c8b0428b7a866a787ca11, type: 2}
+  - tauntCall: {fileID: 11400000, guid: 3af25196f802e65478449f851479d9c2, type: 2}
+  - tauntAggroTarget: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

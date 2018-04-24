@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 389aaf16a439a40498944fa751004381, type: 3}
+  m_Name: PU_Flamethrower
+  m_EditorClassIdentifier: 
+  unitName: Flamethrower
+  unitDescription: Heavy trooper with powerful flametrower
+  faction: {fileID: 11400000, guid: 7a45c81eb139c9944b53c3c36f4a1549, type: 2}
+  maxHealth: 200
+  maxArmor: 200
+  maxShield: 0
+  dmgReducArmor: 3
+  agentType: 1479372276
+  moveSpeed: 6.5
+  moveAccelaration: 50
+  moveStoppingDistance: 0.5
+  agentPriority: 50
+  startState: {fileID: 11400000, guid: e5eca4e52f6c1ba41866a3999c466074, type: 2}
+  colliderRadius: 0.6
+  aggroRange: 8
+  ability:
+  - ability: {fileID: 11400000, guid: e008b452d7ea04d8cb475c76a1a89cff, type: 2}
+    minRange: 0
+    maxRange: 6
+    coolDownDuration: 1.1
+    castLockDuration: 1
+    abilityUseCondition:
+      timer: 0
+      activeRadius: 10
+      minHealth: 0
+      maxHealth: 1
+    castAnimIndex: 01000000
+  - ability: {fileID: 11400000, guid: c679d1d5b0216bb4cb1698434efa28b6, type: 2}
+    minRange: 0
+    maxRange: 10
+    coolDownDuration: 5
+    castLockDuration: 1
+    abilityUseCondition:
+      timer: 0
+      activeRadius: 10
+      minHealth: 0
+      maxHealth: 1
+    castAnimIndex: 01000000
+  hitAreaCenter: {x: 0, y: 0, z: 1}
+  hitAreaRadius: 0.5
+  spritePrefab: {fileID: 1325957962458012, guid: ebc3d0942ac386a49a9befdd9ca9ddaa,
+    type: 2}
+  deathFx: {fileID: 11400000, guid: 0125c52ff73ebfa49991ca18fc3ace42, type: 2}

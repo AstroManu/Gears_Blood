@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 389aaf16a439a40498944fa751004381, type: 3}
+  m_Name: TestTrenchman
+  m_EditorClassIdentifier: 
+  unitName: TestTrenchman
+  unitDescription: PH
+  faction: {fileID: 11400000, guid: 7a45c81eb139c9944b53c3c36f4a1549, type: 2}
+  maxHealth: 100
+  maxArmor: 0
+  maxShield: 0
+  dmgReducArmor: 1
+  agentType: -334000983
+  moveSpeed: 5
+  moveAccelaration: 50
+  moveStoppingDistance: 0.5
+  agentPriority: 50
+  startState: {fileID: 11400000, guid: e5eca4e52f6c1ba41866a3999c466074, type: 2}
+  colliderRadius: 0.35
+  aggroRange: 15
+  ability:
+  - ability: {fileID: 11400000, guid: 0bc726a4449f1334282e680aaaf6f7a8, type: 2}
+    minRange: 2
+    maxRange: 8
+    coolDownDuration: 1.2
+    castLockDuration: 1
+    castAnimIndex: 00000000
+  - ability: {fileID: 11400000, guid: aa9ba25b4735b234fba7de1dedf36625, type: 2}
+    minRange: 0
+    maxRange: 0
+    coolDownDuration: 5
+    castLockDuration: 1
+    castAnimIndex: 00000000
+  hitAreaCenter: {x: 0, y: 0, z: 1}
+  hitAreaRadius: 0.5
+  spritePrefab: {fileID: 1199879447677284, guid: 4a6291aef90bb524190ce542ead4a5f6,
+    type: 2}
+  deathFx: {fileID: 11400000, guid: 0125c52ff73ebfa49991ca18fc3ace42, type: 2}

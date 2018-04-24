@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 713d08dfe3511ca49acbd8d84788c58c, type: 3}
+  m_Name: DemoLaser
+  m_EditorClassIdentifier: 
+  abilityName: Laser
+  abilityDescription: Description
+  allowFriendlyFire: 1
+  abilityEvents:
+  - startTime: 0
+    endTime: 5
+    eventPosition: {fileID: 11400000, guid: 9020b922cd85af44ba1d6926ef933619, type: 2}
+    eventRotation: {fileID: 11400000, guid: 3e0a96caf43888e44a033ebc1e077251, type: 2}
+    effect:
+    - {fileID: 11400000, guid: d7565bd689a672742a39901120959230, type: 2}
+    eventInterrupt:
+    - {fileID: 11400000, guid: 1a24b65c79030c04ca024b77ac0cc358, type: 2}
+  - startTime: 6
+    endTime: 7
+    eventPosition: {fileID: 11400000, guid: 9020b922cd85af44ba1d6926ef933619, type: 2}
+    eventRotation: {fileID: 11400000, guid: 3e0a96caf43888e44a033ebc1e077251, type: 2}
+    effect:
+    - {fileID: 11400000, guid: 622bdd3379dd82148b9a45a35128c3ab, type: 2}
+    - {fileID: 11400000, guid: 7888cba5f39c209418e71fe22536f51b, type: 2}
+    - {fileID: 11400000, guid: 6cabedb0d73d4c94bba98568dbebb61f, type: 2}
+    - {fileID: 11400000, guid: 4de29e9184ba7a64899b31bd3a8572c9, type: 2}
+    - {fileID: 11400000, guid: bebfa7b4e9eeff74eb93625ab1bbfa0c, type: 2}
+    eventInterrupt:
+    - {fileID: 11400000, guid: 1a24b65c79030c04ca024b77ac0cc358, type: 2}

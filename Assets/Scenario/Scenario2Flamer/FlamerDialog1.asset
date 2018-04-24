@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f801aa39ac7cac34d973c051c0205da6, type: 3}
+  m_Name: FlamerDialog1
+  m_EditorClassIdentifier: 
+  dialogEvents:
+  - nameTag: Commander
+    portrait: {fileID: 9100000, guid: 3e2aa1168160f419a8f0eda9ecc905b7, type: 2}
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogText: Here we are, in the mouth of hell...
+    tutorialText: Press [E] or [R1] to continue.
+  - nameTag: Ranger
+    portrait: {fileID: 9100000, guid: 8e928d410b336574d9cac7c933f696ad, type: 2}
+    nameColor: {r: 0.3254902, g: 0.8, b: 0, a: 1}
+    dialogText: Commander, these ruins are infested with hordes of zapper drones...
+      we risk being overwhelmed.
+    tutorialText: 
+  - nameTag: Flamer
+    portrait: {fileID: 9100000, guid: 743f684c9f2ea204dacc90b94abeaadf, type: 2}
+    nameColor: {r: 1, g: 0, b: 0, a: 1}
+    dialogText: Ha! Our armor will take whatever they throw at us, and our flamethrower
+      will vaporize these drones no matter how many comes at us!
+    tutorialText: The yellow bar shown over the unit represent extra armor, which
+      absorb more damage than the red health bar.
+  - nameTag: Commander
+    portrait: {fileID: 9100000, guid: 3e2aa1168160f419a8f0eda9ecc905b7, type: 2}
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogText: Let's move out! We have to get through.
+    tutorialText: Press [E] or [R1] to close dialog.

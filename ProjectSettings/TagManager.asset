@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing Volume
+  - NavMesh Baking
+  - 
+  - 
+  - Faction NeutralUnits
+  - Faction NeutralDestructible
+  - 
+  - Faction PlayerCharacter
+  - 
+  - Faction PUnits
+  - 
+  - Faction PUntargetables
+  - 
+  - Faction PDestructible
+  - 
+  - Faction EUnits
+  - 
+  - Faction EUntargetable
+  - 
+  - Faction EDestructible
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 2998700477
+    locked: 0
+  - name: GroundTilemap
+    uniqueID: 1177959255
+    locked: 0
+  - name: GroundFx
+    uniqueID: 3946198619
+    locked: 0
+  - name: Ground UI
+    uniqueID: 2900316293
+    locked: 0
+  - name: Cursor
+    uniqueID: 2508455607
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 2517729821
+    locked: 0
+  - name: UI
+    uniqueID: 257630223
+    locked: 0

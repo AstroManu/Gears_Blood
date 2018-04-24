@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e20626b5d36c65449ca57128f6ccfca, type: 3}
+  m_Name: Follow_Follow
+  m_EditorClassIdentifier: 
+  initialAction:
+  - {fileID: 11400000, guid: dfca15e62de1a6a459e7a19098fbae8d, type: 2}
+  - {fileID: 11400000, guid: b884019331afdb649975baaf90927595, type: 2}
+  - {fileID: 11400000, guid: 57a4517e02f8c0a40a9798333239f34e, type: 2}
+  stateAction:
+  - {fileID: 11400000, guid: 89a57da6ce3635f47810b2b7bc4fcf59, type: 2}
+  decision:
+  - condition: {fileID: 11400000, guid: 20f5d5adb74bfc548b73341e3ed08cdd, type: 2}
+    newState: {fileID: 11400000, guid: 5373fe05736ef5e4fbdf93292fb4ef1d, type: 2}
+  - condition: {fileID: 11400000, guid: d6617e5c9e0758c4d857271911404e34, type: 2}
+    newState: {fileID: 11400000, guid: a834a8ede2e569542b6377b073825f98, type: 2}

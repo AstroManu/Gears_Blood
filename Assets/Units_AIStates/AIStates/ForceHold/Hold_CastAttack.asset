@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e20626b5d36c65449ca57128f6ccfca, type: 3}
+  m_Name: Hold_CastAttack
+  m_EditorClassIdentifier: 
+  initialAction:
+  - {fileID: 11400000, guid: dfca15e62de1a6a459e7a19098fbae8d, type: 2}
+  - {fileID: 11400000, guid: 6ba45a9871a7c924ebd0ffb7117308a0, type: 2}
+  - {fileID: 11400000, guid: 38c122f4717e5f34e8d5ba2ce07c0622, type: 2}
+  - {fileID: 11400000, guid: fc15a5f25ec746c4382deae12f9b33bd, type: 2}
+  - {fileID: 11400000, guid: 74ee92381cfe0f54888a3f98d4a9df17, type: 2}
+  stateAction: []
+  decision:
+  - condition: {fileID: 11400000, guid: 72267dd6743dbe64599597b6c1f93999, type: 2}
+    newState: {fileID: 11400000, guid: ba40145f9b1100c408b600d5352eab96, type: 2}
+    actions: []
+  - condition: {fileID: 11400000, guid: 20f5d5adb74bfc548b73341e3ed08cdd, type: 2}
+    newState: {fileID: 11400000, guid: 5373fe05736ef5e4fbdf93292fb4ef1d, type: 2}
+    actions:
+    - {fileID: 11400000, guid: 74c290cc113582e4597ca69ff8baef28, type: 2}
+  - condition: {fileID: 11400000, guid: afed7c04ed807ca44a6df52a72e907ab, type: 2}
+    newState: {fileID: 11400000, guid: 88fc9017831fcaf48bd215ddf0959ab2, type: 2}
+    actions:
+    - {fileID: 11400000, guid: 74c290cc113582e4597ca69ff8baef28, type: 2}
