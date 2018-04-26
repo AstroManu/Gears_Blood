@@ -15,14 +15,13 @@ MonoBehaviour:
   - nameTag: Commander
     portrait: {fileID: 9100000, guid: 3e2aa1168160f419a8f0eda9ecc905b7, type: 2}
     nameColor: {r: 1, g: 1, b: 1, a: 1}
-    dialogText: 'What is this? These debris block our path: we will have to clear
-      them.'
+    dialogText: These debris block our path. We will have to clear them.
     tutorialText: 
   - nameTag: Ranger
     portrait: {fileID: 9100000, guid: 8e928d410b336574d9cac7c933f696ad, type: 2}
     nameColor: {r: 0.2, g: 1, b: 0, a: 1}
-    dialogText: Sir, these look brittle. We should be able to destroy them easily
-      with our crossbows.
+    dialogText: Sir, it look brittle. We should be able to destroy them easily with
+      our crossbows.
     tutorialText: Your units won't automaticaly attack destructible debris, but you
       can order them to by holding [LT], hovering over the target with your cursor,
       and pressing [A], [B], [X] or [Y].
