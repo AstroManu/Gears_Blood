@@ -28,9 +28,13 @@ public class SpriteController : MonoBehaviour {
 		anim = GetComponent<Animator> ();
 		target = unit.transform;
 		AnimIdleMove ();
-		GameObject healthBarsObject = Instantiate (healthBarsPrefab, transform.parent);
-		HealthUI = healthBarsObject.GetComponent <UnitHealthBars> ();
-		HealthUI.target = this;
+		if (healthBarsPrefab != null)
+		{
+			GameObject healthBarsObject = Instantiate (healthBarsPrefab, transform.parent);
+			HealthUI = healthBarsObject.GetComponent <UnitHealthBars> ();
+			HealthUI.target = this;
+		}
+
 	}
 
 	public void SetUnitColor (Color unitColor)

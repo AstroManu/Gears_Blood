@@ -26,6 +26,9 @@ public class PUHealth : UnitHealth {
 		float healthFill = Mathf.InverseLerp (0f, unit.health.maxHealth, unit.health.health);
 		float armorFill = Mathf.InverseLerp (0f, unit.health.maxArmor, unit.health.armor);
 		float shieldFill = Mathf.InverseLerp (0f, unit.health.maxShield, unit.health.shield);
-		unit.spriteC.HealthUI.UpdateDisplay (healthFill, armorFill, shieldFill);
+		if (unit.spriteC.HealthUI != null)
+		{
+			unit.spriteC.HealthUI.UpdateDisplay (healthFill, armorFill, shieldFill);
+		}
 	}
 }
