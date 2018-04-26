@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f801aa39ac7cac34d973c051c0205da6, type: 3}
+  m_Name: RangerDialog1
+  m_EditorClassIdentifier: 
+  dialogEvents:
+  - nameTag: Commander
+    portrait: {fileID: 9100000, guid: 3e2aa1168160f419a8f0eda9ecc905b7, type: 2}
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogText: Here we are, in the mouth of hell...
+    tutorialText: Press [RB] on the gamepad or [E] on the keyboard to continue...
+  - nameTag: Ranger
+    portrait: {fileID: 9100000, guid: 8e928d410b336574d9cac7c933f696ad, type: 2}
+    nameColor: {r: 0.19999993, g: 1, b: 0, a: 1}
+    dialogText: Damn, look at this devastation... We are too late. The Resistance
+      must have been wiped out.
+    tutorialText: Press [RB] or [E] to continue. Press [LB] or [Q] to return to the
+      previous dialog.
+  - nameTag: Commander
+    portrait: {fileID: 9100000, guid: 3e2aa1168160f419a8f0eda9ecc905b7, type: 2}
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogText: I'm not counting on that yet. Let's move out! If anyone is still alive,
+      they'll need our assistance to drive out these Machines!
+    tutorialText: Move the commander with the [Left Joystick] on the gamepad.
+  - nameTag: Ranger
+    portrait: {fileID: 9100000, guid: 8e928d410b336574d9cac7c933f696ad, type: 2}
+    nameColor: {r: 0.19999993, g: 1, b: 0, a: 1}
+    dialogText: We'll follow you to the death!
+    tutorialText: Your units will follow you in formation unless you give them an
+      order.

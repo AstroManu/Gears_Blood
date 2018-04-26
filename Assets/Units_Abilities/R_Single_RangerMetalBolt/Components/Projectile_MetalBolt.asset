@@ -15,8 +15,8 @@ MonoBehaviour:
     type: 2}
   hitFxPrefab: {fileID: 1570621813490850, guid: 421818569b2871642a0ee3da33700d8d,
     type: 2}
-  projectileSpeed: 25
-  damageAmount: 20
+  projectileSpeed: 30
+  damageAmount: 15
   blazeDuration: 0
   slowDuration: 5
   slowModifier: 0.4

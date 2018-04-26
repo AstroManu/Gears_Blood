@@ -19,7 +19,7 @@ MonoBehaviour:
   maxShield: 0
   dmgReducArmor: 1
   agentType: -334000983
-  moveSpeed: 6
+  moveSpeed: 4
   moveAccelaration: 50
   moveStoppingDistance: 0.5
   agentPriority: 50
@@ -39,7 +39,7 @@ MonoBehaviour:
       maxHealth: 1
     castAnimIndex: 02000000
   hitAreaCenter: {x: 0, y: 0, z: 1}
-  hitAreaRadius: 0.5
+  hitAreaRadius: 0.2
   spritePrefab: {fileID: 1916259896012000, guid: f089a40833bd1cb4380a80433ee57ed1,
     type: 2}
   deathFx: {fileID: 11400000, guid: 2bd0e9541e6cb0a4c899d0e5f9bbc30a, type: 2}

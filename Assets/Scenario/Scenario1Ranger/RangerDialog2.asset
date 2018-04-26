@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f801aa39ac7cac34d973c051c0205da6, type: 3}
+  m_Name: RangerDialog2
+  m_EditorClassIdentifier: 
+  dialogEvents:
+  - nameTag: Ranger
+    portrait: {fileID: 9100000, guid: 8e928d410b336574d9cac7c933f696ad, type: 2}
+    nameColor: {r: 0.2, g: 1, b: 0, a: 1}
+    dialogText: Look commander! The way into the city has been blocked by laser gates.
+    tutorialText: 
+  - nameTag: Commander
+    portrait: {fileID: 9100000, guid: 3e2aa1168160f419a8f0eda9ecc905b7, type: 2}
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogText: This isn't a problem. We can disable the gate by pressing both pads
+      at once.
+    tutorialText: 
+  - nameTag: Ranger
+    portrait: {fileID: 9100000, guid: 8e928d410b336574d9cac7c933f696ad, type: 2}
+    nameColor: {r: 0.19999993, g: 1, b: 0, a: 1}
+    dialogText: We'll obey any orders you give us.
+    tutorialText: 'Each of your units is assigned to a button on the gamepad: [A],
+      [B], [X] or [Y].'
+  - nameTag: Commander
+    portrait: {fileID: 9100000, guid: 3e2aa1168160f419a8f0eda9ecc905b7, type: 2}
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogText: I'll right, listen up!
+    tutorialText: By holding [LT] on your gamepad and moving the [Left Joystick],
+      you can move the cursor around your commander.
+  - nameTag: Commander
+    portrait: {fileID: 9100000, guid: 3e2aa1168160f419a8f0eda9ecc905b7, type: 2}
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogText: We need to deactivate this gate to proceed. When I give the word,
+      move out into position.
+    tutorialText: While holding [LT] and moving the cursor, press [A], [B], [X] or
+      [Y] to move the corresponding unit into position. Use this to move units on
+      the pressure pads.
