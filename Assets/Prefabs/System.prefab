@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 222097175980318410}
   - component: {fileID: 114825367344561308}
   m_Layer: 0
-  m_Name: Effet
+  m_Name: DamageFx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 222851886279882190}
   - component: {fileID: 114973480341032952}
   m_Layer: 0
-  m_Name: NomUnit
+  m_Name: NameUnit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -326,7 +326,7 @@ GameObject:
   - component: {fileID: 222893784108302024}
   - component: {fileID: 114186511043023946}
   m_Layer: 0
-  m_Name: Bouton
+  m_Name: GamepadButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -395,7 +395,7 @@ GameObject:
   - component: {fileID: 222877349027029072}
   - component: {fileID: 114348484714084022}
   m_Layer: 0
-  m_Name: Bouton
+  m_Name: GamepadButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1052,7 +1052,7 @@ GameObject:
   - component: {fileID: 222171985105908504}
   - component: {fileID: 114118074519064214}
   m_Layer: 0
-  m_Name: Effet
+  m_Name: DamageFx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1280,7 +1280,7 @@ GameObject:
   - component: {fileID: 222183465770573002}
   - component: {fileID: 114578438037030416}
   m_Layer: 0
-  m_Name: Effet
+  m_Name: DamageFx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1385,7 +1385,7 @@ GameObject:
   - component: {fileID: 222458118082594660}
   - component: {fileID: 114235319612756956}
   m_Layer: 0
-  m_Name: Bouton
+  m_Name: GamepadButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1597,7 +1597,7 @@ GameObject:
   - component: {fileID: 222171868542482584}
   - component: {fileID: 114160596827407416}
   m_Layer: 0
-  m_Name: Effet
+  m_Name: DamageFx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1762,7 +1762,7 @@ GameObject:
   - component: {fileID: 222188161745698828}
   - component: {fileID: 114711952453806676}
   m_Layer: 0
-  m_Name: Bouton
+  m_Name: GamepadButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1813,7 +1813,7 @@ GameObject:
   - component: {fileID: 222398616590662946}
   - component: {fileID: 114253784408461110}
   m_Layer: 0
-  m_Name: NomUnit
+  m_Name: NameUnit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1847,7 +1847,7 @@ GameObject:
   - component: {fileID: 222039978363667722}
   - component: {fileID: 114782234340366700}
   m_Layer: 0
-  m_Name: NomUnit
+  m_Name: NameUnit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2113,7 +2113,7 @@ GameObject:
   - component: {fileID: 222253701264990440}
   - component: {fileID: 114744867375729964}
   m_Layer: 0
-  m_Name: NomUnit
+  m_Name: NameUnit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3123,7 +3123,7 @@ MonoBehaviour:
   armor: 0
   maxShield: 0
   shield: 0
-  squadDisplay: {fileID: 0}
+  squadDisplay: {fileID: 114851242762361666}
 --- !u!114 &114026687438472748
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3163,7 +3163,7 @@ MonoBehaviour:
   armor: 0
   maxShield: 0
   shield: 0
-  squadDisplay: {fileID: 0}
+  squadDisplay: {fileID: 114689838398664114}
 --- !u!114 &114042118059604630
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3715,7 +3715,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec8b462eb91400e44a1c674859fde9b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  preset: {fileID: 11400000, guid: 1e8c276918c08481581894ff473231cd, type: 2}
+  preset: {fileID: 11400000, guid: c0f8fbf577d0eab4d9baaa3522c67a60, type: 2}
   loadRefValues: 1
   gC: {fileID: 0}
   health: {fileID: 0}
@@ -3931,7 +3931,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Nom
+  m_text: Unit
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5f7a77964e2b34bf98c7c839e1c249a9, type: 2}
   m_sharedMaterial: {fileID: 21572099310806152, guid: 5f7a77964e2b34bf98c7c839e1c249a9,
@@ -3999,7 +3999,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 114253784408461110}
-    characterCount: 3
+    characterCount: 4
     spriteCount: 0
     spaceCount: 0
     wordCount: 1
@@ -4039,6 +4039,7 @@ MonoBehaviour:
   playerName: Player1
   unit: {fileID: 0}
   worldTarget: {x: 0, y: 0, z: 0}
+  squadPortrait: {fileID: 9100000, guid: 8e928d410b336574d9cac7c933f696ad, type: 2}
   squadKey: Squad1
   squadIndex: 0
   pC: {fileID: 114366502803762572}
@@ -4341,7 +4342,7 @@ MonoBehaviour:
   armor: 0
   maxShield: 0
   shield: 0
-  squadDisplay: {fileID: 0}
+  squadDisplay: {fileID: 114864175574211674}
 --- !u!114 &114348484714084022
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4383,6 +4384,7 @@ MonoBehaviour:
   playerName: Player1
   unit: {fileID: 0}
   worldTarget: {x: 0, y: 0, z: 0}
+  squadPortrait: {fileID: 9100000, guid: 5e2eaf15af12c6e47aa7a6da0707f8ea, type: 2}
   squadKey: Squad3
   squadIndex: 2
   pC: {fileID: 114366502803762572}
@@ -4517,6 +4519,7 @@ MonoBehaviour:
   playerName: Player1
   unit: {fileID: 0}
   worldTarget: {x: 0, y: 0, z: 0}
+  squadPortrait: {fileID: 9100000, guid: 34c429324436cc04bab1dd64b54a3b8d, type: 2}
   squadKey: Squad4
   squadIndex: 3
   pC: {fileID: 114366502803762572}
@@ -4640,7 +4643,7 @@ MonoBehaviour:
   armor: 0
   maxShield: 0
   shield: 0
-  squadDisplay: {fileID: 0}
+  squadDisplay: {fileID: 114632024839174448}
 --- !u!114 &114450098483888050
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5581,12 +5584,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unit: {fileID: 0}
+  unitPortrait: {fileID: 95058037078461200}
+  unitName: {fileID: 114744867375729964}
   healthBar: {fileID: 114619232349296396}
   armorBar: {fileID: 114217283487711980}
   shieldBar: {fileID: 114491250284849022}
-  healthText: {fileID: 0}
+  damageFx: {fileID: 114578438037030416}
   cooldownDisplay:
   - {fileID: 114465214981136028}
+  cooldownReady: {fileID: 114807963652232674}
 --- !u!114 &114632170439986102
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5815,12 +5821,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unit: {fileID: 0}
+  unitPortrait: {fileID: 95827660964326902}
+  unitName: {fileID: 114782234340366700}
   healthBar: {fileID: 114762248439005408}
   armorBar: {fileID: 114147021502523852}
   shieldBar: {fileID: 114815454597242602}
-  healthText: {fileID: 0}
+  damageFx: {fileID: 114160596827407416}
   cooldownDisplay:
   - {fileID: 114171131394948184}
+  cooldownReady: {fileID: 114725986763899016}
 --- !u!114 &114703021678277732
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6078,7 +6087,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Nom
+  m_text: Unit
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5f7a77964e2b34bf98c7c839e1c249a9, type: 2}
   m_sharedMaterial: {fileID: 21572099310806152, guid: 5f7a77964e2b34bf98c7c839e1c249a9,
@@ -6146,7 +6155,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 114744867375729964}
-    characterCount: 3
+    characterCount: 4
     spriteCount: 0
     spaceCount: 0
     wordCount: 1
@@ -6433,7 +6442,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Nom
+  m_text: Unit
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5f7a77964e2b34bf98c7c839e1c249a9, type: 2}
   m_sharedMaterial: {fileID: 21572099310806152, guid: 5f7a77964e2b34bf98c7c839e1c249a9,
@@ -6501,7 +6510,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 114782234340366700}
-    characterCount: 3
+    characterCount: 4
     spriteCount: 0
     spaceCount: 0
     wordCount: 1
@@ -6565,7 +6574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec8b462eb91400e44a1c674859fde9b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  preset: {fileID: 11400000, guid: fac3dbaa5a27f064bb74ff239f4d7485, type: 2}
+  preset: {fileID: 11400000, guid: cfd2878405130c545ad1393f87585741, type: 2}
   loadRefValues: 1
   gC: {fileID: 0}
   health: {fileID: 0}
@@ -6861,12 +6870,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unit: {fileID: 0}
+  unitPortrait: {fileID: 95388731508520606}
+  unitName: {fileID: 114253784408461110}
   healthBar: {fileID: 114922529291415412}
   armorBar: {fileID: 114946137087008958}
   shieldBar: {fileID: 114831747064933454}
-  healthText: {fileID: 0}
+  damageFx: {fileID: 114825367344561308}
   cooldownDisplay:
   - {fileID: 114938302976002634}
+  cooldownReady: {fileID: 114084591161251720}
 --- !u!114 &114864175574211674
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6879,12 +6891,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unit: {fileID: 0}
+  unitPortrait: {fileID: 95104759571920374}
+  unitName: {fileID: 114973480341032952}
   healthBar: {fileID: 114144962681768478}
   armorBar: {fileID: 114709785908080554}
   shieldBar: {fileID: 114879966634953948}
-  healthText: {fileID: 0}
+  damageFx: {fileID: 114118074519064214}
   cooldownDisplay:
   - {fileID: 114461310323593192}
+  cooldownReady: {fileID: 114367076862814464}
 --- !u!114 &114865234361107924
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7344,6 +7359,7 @@ MonoBehaviour:
   playerName: Player1
   unit: {fileID: 0}
   worldTarget: {x: 0, y: 0, z: 0}
+  squadPortrait: {fileID: 9100000, guid: 743f684c9f2ea204dacc90b94abeaadf, type: 2}
   squadKey: Squad2
   squadIndex: 1
   pC: {fileID: 114366502803762572}
@@ -7384,7 +7400,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Nom
+  m_text: Unit
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5f7a77964e2b34bf98c7c839e1c249a9, type: 2}
   m_sharedMaterial: {fileID: 21572099310806152, guid: 5f7a77964e2b34bf98c7c839e1c249a9,
@@ -7452,7 +7468,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 114973480341032952}
-    characterCount: 3
+    characterCount: 4
     spriteCount: 0
     spaceCount: 0
     wordCount: 1

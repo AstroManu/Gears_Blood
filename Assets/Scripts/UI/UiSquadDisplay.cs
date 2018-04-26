@@ -2,31 +2,33 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class UiSquadDisplay : MonoBehaviour {
 
 	[HideInInspector] public GameUnit unit;
 
+	public Animator unitPortrait;
+	public TextMeshProUGUI unitName;
+
 	public Image healthBar;
 	public Image armorBar;
 	public Image shieldBar;
 
-	public Text healthText;
+	public Image damageFx;
 
 	public Image[] cooldownDisplay;
+	public Image cooldownReady;
 
 	public void InitializeDisplay (GameUnit squad)
 	{
 		unit = squad;
+		unitPortrait.runtimeAnimatorController = unit.GetComponent <PUController> ().squadPortrait;
+		unitName.text = unit.preset.unitName;
 
-		if (unit.health.maxArmor <= 0f)
-		{
-			armorBar.gameObject.SetActive (false);
-		}
-		if (unit.health.maxShield <= 0f)
-		{
-			shieldBar.gameObject.SetActive (false);
-		}
+		armorBar.gameObject.SetActive (unit.health.maxArmor > 0f);
+		shieldBar.gameObject.SetActive (unit.health.maxShield > 0f);
+		damageFx.color = new Color (0, 0, 0, 0);
 
 		UpdateHealth ();
 		UpdateCooldown ();
@@ -45,6 +47,8 @@ public class UiSquadDisplay : MonoBehaviour {
 		{
 			image.fillAmount = cooldownFill;
 		}
+
+		cooldownReady.gameObject.SetActive (cooldownFill >= 1f);
 	}
 
 	public void UpdateHealth ()
@@ -52,6 +56,5 @@ public class UiSquadDisplay : MonoBehaviour {
 		healthBar.fillAmount = Mathf.InverseLerp (0f, unit.health.maxHealth, unit.health.health);
 		armorBar.fillAmount = Mathf.InverseLerp (0f, unit.health.maxArmor, unit.health.armor);
 		shieldBar.fillAmount = Mathf.InverseLerp (0f, unit.health.maxShield, unit.health.shield);
-		healthText.text = ("" + Mathf.Clamp (Mathf.Round(unit.health.health), 0f, unit.health.maxHealth));
 	}
 }

@@ -5,6 +5,7 @@ using Rewired;
 
 public class PUController : UnitController {
 
+	[Tooltip ("Portrait for the SquadBar UI")] public RuntimeAnimatorController squadPortrait;
 	[Tooltip ("Don't touch this. Rewired action associated with unit")] public string squadKey;
 	[Tooltip ("Don't touch this. Position in the squad array of the PlayerController")] public int squadIndex;
 	[Tooltip ("Don't touch this")] public PlayerController pC;

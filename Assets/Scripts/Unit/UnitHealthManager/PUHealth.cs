@@ -9,7 +9,10 @@ public class PUHealth : UnitHealth {
 	public override void InitializeHealth()
 	{
 		squadDisplay.InitializeDisplay (unit);
-		unit.spriteC.HealthUI.InitializeDisplay (maxArmor > 0f, maxShield > 0f);
+		if (unit.spriteC.HealthUI != null)
+		{
+			unit.spriteC.HealthUI.InitializeDisplay (maxArmor > 0f, maxShield > 0f);
+		}
 	}
 
 	public override void DestroyUnit ()
