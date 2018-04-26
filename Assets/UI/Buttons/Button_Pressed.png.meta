@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 90e4207a8577133408f548be8e2bfee8
-timeCreated: 1524428937
+guid: c9c44c071399eff41b8901c28ebe211a
+timeCreated: 1524767094
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: B3c_0
+    21300000: Button_Pressed
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -101,7 +101,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: B3c_0
+      name: Button_Pressed
       rect:
         serializedVersion: 2
         x: 1
@@ -109,7 +109,7 @@ TextureImporter:
         width: 70
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 18, y: 0, z: 18, w: 0}
       outline: []
       physicsShape: []
