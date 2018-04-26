@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29692e169116e124c86517444473abba, type: 3}
   m_Name: Instantiate_Telegraph_Damage_Cross
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1533227337975888, guid: cdc3e7997fce99040a76ab8b4c29572a, type: 2}
+  prefab: {fileID: 1444103422409992, guid: efbf5ae716cee8e4cbd7e53108af95c1, type: 2}
   offset: {x: 0, y: 0, z: 0}

@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29692e169116e124c86517444473abba, type: 3}
   m_Name: Instantiate_Telegraph_Taunt
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1533227337975888, guid: decb174d9d8f9194cb44c257c3dfb410, type: 2}
+  prefab: {fileID: 1692022559118950, guid: bc243ef01199ed849ac7ac5b545ba4a5, type: 2}
   offset: {x: 0, y: 0, z: 0}

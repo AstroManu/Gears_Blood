@@ -137,8 +137,8 @@ TextureImporter:
         y: 375
         width: 125
         height: 125
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -249,8 +249,8 @@ TextureImporter:
         y: 125
         width: 125
         height: 125
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -260,25 +260,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 250
-        y: 125
-        width: 125
-        height: 125
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: atlas-texture-03_11
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 125
-        width: 125
-        height: 125
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        y: 0
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -305,36 +291,8 @@ TextureImporter:
         y: 0
         width: 125
         height: 125
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: atlas-texture-03_14
-      rect:
-        serializedVersion: 2
-        x: 250
-        y: 0
-        width: 125
-        height: 125
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: atlas-texture-03_15
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 0
-        width: 125
-        height: 125
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
