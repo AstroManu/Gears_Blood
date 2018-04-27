@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 389aaf16a439a40498944fa751004381, type: 3}
+  m_Name: EU_RangeDrone
+  m_EditorClassIdentifier: 
+  unitName: Electro Drone
+  unitDescription: Weak machine with a melee attack
+  faction: {fileID: 11400000, guid: 600bae9a360d30647ab409b13ff2629e, type: 2}
+  maxHealth: 40
+  maxArmor: 0
+  maxShield: 0
+  dmgReducArmor: 1
+  agentType: -334000983
+  moveSpeed: 4
+  moveAccelaration: 50
+  moveStoppingDistance: 0.5
+  agentPriority: 50
+  startState: {fileID: 11400000, guid: cd0705b73c2b648419f2cd33b6142bfe, type: 2}
+  colliderRadius: 0.35
+  aggroRange: 15
+  ability:
+  - ability: {fileID: 11400000, guid: 61ee9d6fbc7fc164dae4d3d39f23e885, type: 2}
+    minRange: 2
+    maxRange: 8
+    coolDownDuration: 1.5
+    castLockDuration: 1
+    abilityUseCondition:
+      timer: 0
+      activeRadius: 1
+      minHealth: 0
+      maxHealth: 1
+    castAnimIndex: 01000000
+  hitAreaCenter: {x: 0, y: 0, z: 1}
+  hitAreaRadius: 0.2
+  spritePrefab: {fileID: 1916259896012000, guid: 03539c2cee5a75348a05c180debeed38,
+    type: 2}
+  deathFx: {fileID: 11400000, guid: 2bd0e9541e6cb0a4c899d0e5f9bbc30a, type: 2}
+  portraitBase: {fileID: 0}
+  portraitColor: {fileID: 0}
