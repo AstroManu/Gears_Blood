@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa6c6f1948e4eb54a9982d34dd9bb098, type: 3}
   m_Name: InstantiateHitFx_DroneZap
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1608141040355574, guid: 1b61a7ba0bb2fcc47804908aada3cbaf, type: 2}
+  prefab: {fileID: 1608141040355574, guid: 176a7ccd641241449b4ce3e4dccbe941, type: 2}

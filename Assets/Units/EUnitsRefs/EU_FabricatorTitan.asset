@@ -40,6 +40,8 @@ MonoBehaviour:
     castAnimIndex: 01000000
   hitAreaCenter: {x: 0, y: 0, z: 1}
   hitAreaRadius: 0.5
-  spritePrefab: {fileID: 1721264696680672, guid: 41efe5a02bb7b43c9985f06824761058,
+  spritePrefab: {fileID: 1721264696680672, guid: 0e180ea1376eecc48b47ab5cedac9bba,
     type: 2}
   deathFx: {fileID: 11400000, guid: c13fe55a89881514880fee8cff700156, type: 2}
+  portraitBase: {fileID: 0}
+  portraitColor: {fileID: 0}

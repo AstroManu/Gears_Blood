@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 1372294762510464, guid: 43127335ea5a9824ea9566533fc88d7a,
     type: 2}
-  hitFxPrefab: {fileID: 1608141040355574, guid: 176a7ccd641241449b4ce3e4dccbe941,
+  hitFxPrefab: {fileID: 1649588299074374, guid: 95afa82103b9fd84494f5bceadc6310f,
     type: 2}
   projectileSpeed: 40
   damageAmount: 60

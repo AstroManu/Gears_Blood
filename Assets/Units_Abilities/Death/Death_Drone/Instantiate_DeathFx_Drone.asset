@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29692e169116e124c86517444473abba, type: 3}
   m_Name: Instantiate_DeathFx_Drone
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1441218251696874, guid: ea171ab0293e11847ac774f4402a6c70, type: 2}
+  prefab: {fileID: 1152839471721384, guid: 4dfadeddd9cea394ab16aa86c06dcb3a, type: 2}
   offset: {x: 0, y: 0, z: 0}
