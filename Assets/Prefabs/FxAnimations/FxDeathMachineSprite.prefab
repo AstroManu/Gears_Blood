@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 212182688091221200}
   - component: {fileID: 95709907937965968}
   m_Layer: 0
-  m_Name: FxDeathMachine
+  m_Name: FxDeathMachineSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

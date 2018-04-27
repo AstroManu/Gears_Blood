@@ -22,7 +22,7 @@ MonoBehaviour:
   moveSpeed: 4
   moveAccelaration: 50
   moveStoppingDistance: 0.5
-  agentPriority: 50
+  agentPriority: 40
   startState: {fileID: 11400000, guid: cd0705b73c2b648419f2cd33b6142bfe, type: 2}
   colliderRadius: 0.35
   aggroRange: 15

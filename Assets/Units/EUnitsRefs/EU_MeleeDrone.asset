@@ -22,7 +22,7 @@ MonoBehaviour:
   moveSpeed: 4
   moveAccelaration: 50
   moveStoppingDistance: 0.5
-  agentPriority: 50
+  agentPriority: 40
   startState: {fileID: 11400000, guid: cd0705b73c2b648419f2cd33b6142bfe, type: 2}
   colliderRadius: 0.35
   aggroRange: 15
@@ -43,3 +43,5 @@ MonoBehaviour:
   spritePrefab: {fileID: 1916259896012000, guid: f089a40833bd1cb4380a80433ee57ed1,
     type: 2}
   deathFx: {fileID: 11400000, guid: 2bd0e9541e6cb0a4c899d0e5f9bbc30a, type: 2}
+  portraitBase: {fileID: 0}
+  portraitColor: {fileID: 0}
