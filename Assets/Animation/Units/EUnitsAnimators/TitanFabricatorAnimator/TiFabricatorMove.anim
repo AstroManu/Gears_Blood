@@ -19,17 +19,17 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: e809d435093d9ed43b212c7f47d42ba7, type: 3}
+      value: {fileID: 21300000, guid: f7ae1f4d33b5ec546802d503c88f8d76, type: 3}
     - time: 0.23333333
-      value: {fileID: 21300002, guid: e809d435093d9ed43b212c7f47d42ba7, type: 3}
+      value: {fileID: 21300002, guid: f7ae1f4d33b5ec546802d503c88f8d76, type: 3}
     - time: 0.46666667
-      value: {fileID: 21300004, guid: e809d435093d9ed43b212c7f47d42ba7, type: 3}
+      value: {fileID: 21300004, guid: f7ae1f4d33b5ec546802d503c88f8d76, type: 3}
     - time: 0.68333334
-      value: {fileID: 21300006, guid: e809d435093d9ed43b212c7f47d42ba7, type: 3}
+      value: {fileID: 21300006, guid: f7ae1f4d33b5ec546802d503c88f8d76, type: 3}
     - time: 0.9166667
-      value: {fileID: 21300008, guid: e809d435093d9ed43b212c7f47d42ba7, type: 3}
+      value: {fileID: 21300008, guid: f7ae1f4d33b5ec546802d503c88f8d76, type: 3}
     - time: 1.1666666
-      value: {fileID: 21300008, guid: e809d435093d9ed43b212c7f47d42ba7, type: 3}
+      value: {fileID: 21300008, guid: f7ae1f4d33b5ec546802d503c88f8d76, type: 3}
     attribute: m_Sprite
     path: Sprite
     classID: 212
@@ -73,12 +73,12 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: e809d435093d9ed43b212c7f47d42ba7, type: 3}
-    - {fileID: 21300002, guid: e809d435093d9ed43b212c7f47d42ba7, type: 3}
-    - {fileID: 21300004, guid: e809d435093d9ed43b212c7f47d42ba7, type: 3}
-    - {fileID: 21300006, guid: e809d435093d9ed43b212c7f47d42ba7, type: 3}
-    - {fileID: 21300008, guid: e809d435093d9ed43b212c7f47d42ba7, type: 3}
-    - {fileID: 21300008, guid: e809d435093d9ed43b212c7f47d42ba7, type: 3}
+    - {fileID: 21300000, guid: f7ae1f4d33b5ec546802d503c88f8d76, type: 3}
+    - {fileID: 21300002, guid: f7ae1f4d33b5ec546802d503c88f8d76, type: 3}
+    - {fileID: 21300004, guid: f7ae1f4d33b5ec546802d503c88f8d76, type: 3}
+    - {fileID: 21300006, guid: f7ae1f4d33b5ec546802d503c88f8d76, type: 3}
+    - {fileID: 21300008, guid: f7ae1f4d33b5ec546802d503c88f8d76, type: 3}
+    - {fileID: 21300008, guid: f7ae1f4d33b5ec546802d503c88f8d76, type: 3}
     - {fileID: 21300000, guid: cbe80745f7fd64646a06423f9dd20c21, type: 3}
     - {fileID: 21300002, guid: cbe80745f7fd64646a06423f9dd20c21, type: 3}
     - {fileID: 21300004, guid: cbe80745f7fd64646a06423f9dd20c21, type: 3}

@@ -19,7 +19,7 @@ MonoBehaviour:
   maxShield: 0
   dmgReducArmor: 0
   agentType: -902729914
-  moveSpeed: 5
+  moveSpeed: 3
   moveAccelaration: 50
   moveStoppingDistance: 0.5
   agentPriority: 39
