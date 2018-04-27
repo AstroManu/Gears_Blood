@@ -8,7 +8,8 @@ public class UiSquadDisplay : MonoBehaviour {
 
 	[HideInInspector] public GameUnit unit;
 
-	public Animator unitPortrait;
+	public Image unitPortrait;
+	public Image unitPortraitColor;
 	public TextMeshProUGUI unitName;
 
 	public Image healthBar;
@@ -23,7 +24,8 @@ public class UiSquadDisplay : MonoBehaviour {
 	public void InitializeDisplay (GameUnit squad)
 	{
 		unit = squad;
-		unitPortrait.runtimeAnimatorController = unit.GetComponent <PUController> ().squadPortrait;
+		unitPortrait.sprite = unit.preset.portraitBase;
+		unitPortraitColor.sprite = unit.preset.portraitColor;
 		unitName.text = unit.preset.unitName;
 
 		armorBar.gameObject.SetActive (unit.health.maxArmor > 0f);

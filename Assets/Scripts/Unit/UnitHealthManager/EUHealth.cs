@@ -10,6 +10,7 @@ public class EUHealth : UnitHealth {
 		{
 			unit.spriteC.HealthUI.InitializeDisplay (maxArmor > 0f, maxShield > 0f);
 		}
+		damageFxOverlay = unit.spriteC.hitFxOverlay;
 	}
 
 	public override void DestroyUnit ()
@@ -28,5 +29,21 @@ public class EUHealth : UnitHealth {
 		{
 			unit.spriteC.HealthUI.UpdateDisplay (healthFill, armorFill, shieldFill);
 		}
+	}
+
+	public override void DamageOverlayEffect ()
+	{
+		damageFxLerp = 1f;
+	}
+
+	public override void DamageOverlayFallout ()
+	{
+		Color overlayColor = Color.Lerp (Color.clear, Color.red, damageFxLerp);
+		foreach (SpriteRenderer overlay in damageFxOverlay)
+		{
+			overlay.color = overlayColor;
+		}
+
+		damageFxLerp = Mathf.Clamp01 (damageFxLerp - Time.deltaTime * 1.5f);
 	}
 }

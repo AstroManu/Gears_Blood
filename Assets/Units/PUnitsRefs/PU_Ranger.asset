@@ -54,3 +54,5 @@ MonoBehaviour:
   spritePrefab: {fileID: 1325957962458012, guid: b1177441d2ebe3c4f9a59121fa8bb6cc,
     type: 2}
   deathFx: {fileID: 11400000, guid: 0125c52ff73ebfa49991ca18fc3ace42, type: 2}
+  portraitBase: {fileID: 21300000, guid: 8caa3e20a0bf50b4bb5d9ffa9c1ee66b, type: 3}
+  portraitColor: {fileID: 21300000, guid: c55404259662a4749aa3ca48a78a97ac, type: 3}

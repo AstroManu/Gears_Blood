@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PUHealth : UnitHealth {
 
 	[Tooltip ("HUD display of the PU")] public UiSquadDisplay squadDisplay;
+	[HideInInspector] public Image damageFxGlowUI;
 
 	public override void InitializeHealth()
 	{
@@ -13,6 +15,9 @@ public class PUHealth : UnitHealth {
 		{
 			unit.spriteC.HealthUI.InitializeDisplay (maxArmor > 0f, maxShield > 0f);
 		}
+
+		damageFxOverlay = unit.spriteC.hitFxOverlay;
+		damageFxGlowUI = squadDisplay.damageFx;
 	}
 
 	public override void DestroyUnit ()
@@ -33,5 +38,22 @@ public class PUHealth : UnitHealth {
 		{
 			unit.spriteC.HealthUI.UpdateDisplay (healthFill, armorFill, shieldFill);
 		}
+	}
+
+	public override void DamageOverlayEffect ()
+	{
+		damageFxLerp = 1f;
+	}
+
+	public override void DamageOverlayFallout ()
+	{
+		Color overlayColor = Color.Lerp (Color.clear, Color.red, damageFxLerp);
+		foreach (SpriteRenderer overlay in damageFxOverlay)
+		{
+			overlay.color = overlayColor;
+		}
+		damageFxGlowUI.color = overlayColor;
+
+		damageFxLerp = Mathf.Clamp01 (damageFxLerp - Time.deltaTime * 1.25f);
 	}
 }

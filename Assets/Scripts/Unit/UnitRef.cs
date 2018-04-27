@@ -39,6 +39,8 @@ public class UnitRef : ScriptableObject {
 	[Header("Visuals")]
 	[Tooltip ("Prefab of the unit visual aspect. Must have a SpriteController on root.")] public GameObject spritePrefab;
 	[Tooltip ("An ability that is casted at the unit location upon destruction. Most units will spawn an animated death fx.")] public Ability deathFx;
+	[Tooltip ("PU only. Sprite shown in portrait.")] public Sprite portraitBase;
+	[Tooltip ("PU only. Sprite color overlay for portrait.")] public Sprite portraitColor;
 
 	//Take ref values and create the unit
 	public void LoadUnitFromRef (GameUnit gameUnit)

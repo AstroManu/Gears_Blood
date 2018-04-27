@@ -12,14 +12,37 @@ MonoBehaviour:
   m_Name: RangerDialog7
   m_EditorClassIdentifier: 
   dialogEvents:
+  - nameTag: Ranger
+    portrait: {fileID: 9100000, guid: 8e928d410b336574d9cac7c933f696ad, type: 2}
+    nameColor: {r: 0.2, g: 1, b: 0, a: 1}
+    dialogText: Hold on. There is mass of enemies just around the bend. They'll overwhelm
+      us if we're not careful.
+    tutorialText: Holding [LT] reveals enemy sight radius.
   - nameTag: Commander
     portrait: {fileID: 9100000, guid: 3e2aa1168160f419a8f0eda9ecc905b7, type: 2}
     nameColor: {r: 1, g: 1, b: 1, a: 1}
-    dialogText: These debris block our path. We will have to clear them.
+    dialogText: We can't take all of 'em at once. Not without a plan.
     tutorialText: 
   - nameTag: Ranger
     portrait: {fileID: 9100000, guid: 8e928d410b336574d9cac7c933f696ad, type: 2}
     nameColor: {r: 0.2, g: 1, b: 0, a: 1}
-    dialogText: Sir, it look brittle. We should be able to destroy them easily with
-      our crossbows.
-    tutorialText: 
+    dialogText: Sir, the Machines left a lot of fuel canister in that choke point.
+      Rangers like me always carry deployable mines to ambush our foes. A single mine
+      near those canister will cause a massive chain reaction as soon as a drone get
+      close.
+    tutorialText: All units have a special ability they can use. Target a location
+      with your cursor, hold [A], [B], [X] or [Y] for a moment and release the button
+      to order the ability. Rangers will deploy mines when ordered.
+  - nameTag: Commander
+    portrait: {fileID: 9100000, guid: 3e2aa1168160f419a8f0eda9ecc905b7, type: 2}
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogText: Yes, and once a mine set, someone can bait all these drones into the
+      trap. It might be best if you all stay nehind and I go ahead.
+    tutorialText: The Rangers' mines detonates for heavy damages when enemies aproach
+      it. Be careful, it will also hurt your own troops if they are too close.
+  - nameTag: Ranger
+    portrait: {fileID: 9100000, guid: 8e928d410b336574d9cac7c933f696ad, type: 2}
+    nameColor: {r: 0.2, g: 1, b: 0, a: 1}
+    dialogText: It's your call commander. But we can also do it if necessary.
+    tutorialText: Pressing [A], [B], [X] or [Y] twice while aiming with your cursor
+      will force the corresponding unit to move while ignoring enemies along the way.

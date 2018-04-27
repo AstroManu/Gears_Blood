@@ -9,6 +9,7 @@ public class SpriteController : MonoBehaviour {
 	//private SpriteRenderer sR;
 	private float nextFaceUpdate = 0f;
 	[Tooltip ("Reference to all sprite children that must be colored with the unit color on start")] public SpriteRenderer[] coloredSprite;
+	[Tooltip ("Reference to all sprite children that are used as overlay when hit")] public SpriteRenderer[] hitFxOverlay;
 
 	[Tooltip ("Don't touch this. Set to true for the commander")] public bool idleOverriden = false;
 	[HideInInspector] public bool moveRight = true;
@@ -65,11 +66,8 @@ public class SpriteController : MonoBehaviour {
 			{
 				anim.SetBool ("IsMoving", true);
 			}
-			//moveRight = transform.position.x <= target.transform.position.x;
 			moveRight = UpdateFaceRight();
 			transform.position = target.position;
-			//int pos = Mathf.RoundToInt (transform.position.z * 2f);
-			//sR.sortingOrder = (pos * -1);
 		}
 	}
 

@@ -13,11 +13,15 @@ public abstract class UnitHealth : MonoBehaviour {
 	[Tooltip ("Don't touch this unless the unit doesn't load UnitRef")] public float maxShield;
 	[Tooltip ("Don't touch this unless the unit doesn't load UnitRef")] public float shield;
 
+	[HideInInspector] public SpriteRenderer[] damageFxOverlay;
+	[HideInInspector] public float damageFxLerp = 0f;
+
 	public abstract void InitializeHealth ();
 
 	void Update ()
 	{
 		ShieldRestoration ();
+		DamageOverlayFallout ();
 	}
 
 	public void Damage (float amount, GameUnit source)
@@ -27,7 +31,9 @@ public abstract class UnitHealth : MonoBehaviour {
 		if (health <= 0f)
 		{
 			DestroyUnit ();
+			return;
 		}
+		DamageOverlayEffect ();
 	}
 
 	public void EnvDamage (float amount)
@@ -79,4 +85,6 @@ public abstract class UnitHealth : MonoBehaviour {
 
 	public abstract void DestroyUnit ();
 	public abstract void UpdateDisplay ();
+	public abstract void DamageOverlayEffect ();
+	public abstract void DamageOverlayFallout ();
 }
