@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1363964900765466}
+  m_IsPrefabParent: 1
+--- !u!1 &1363964900765466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4018008786485308}
+  - component: {fileID: 114990066692797164}
+  - component: {fileID: 114557056630364978}
+  - component: {fileID: 114941172194831876}
+  - component: {fileID: 114649114291323602}
+  - component: {fileID: 114647176177493234}
+  - component: {fileID: 195537024236070852}
+  - component: {fileID: 135152722707699968}
+  m_Layer: 0
+  m_Name: EU_Mine
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4018008786485308
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363964900765466}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114557056630364978
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363964900765466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2591de50be5547d4682fbcadce720279, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unit: {fileID: 0}
+  maxHealth: 0
+  health: 0
+  maxArmor: 0
+  armor: 0
+  maxShield: 0
+  shield: 0
+  damageFxOverlay: []
+  damageFxLerp: 0
+--- !u!114 &114647176177493234
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363964900765466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba692692d77a27f4589e77f669b817b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerName: System
+  unit: {fileID: 0}
+  worldTarget: {x: 0, y: 0, z: 0}
+  abilityTimers: []
+--- !u!114 &114649114291323602
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363964900765466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e40c799280a7494faf3f6786357e96f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unit: {fileID: 0}
+  currentState: {fileID: 0}
+  nextState: {fileID: 0}
+  cmdTarget: {fileID: 0}
+  followPosition: {fileID: 0}
+  followPosMemory: {x: 0, y: 0, z: 0}
+  currentTarget: {fileID: 0}
+  distanceToTarget: 0
+  nextAttack: 0
+  nextAbility: 0
+  activeAbility: 0
+  castLockTime: 0
+--- !u!114 &114941172194831876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363964900765466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adb69c190d0d69747a31e6d7cab530c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unit: {fileID: 0}
+  blazeCall: {fileID: 11400000, guid: 0eaa71e4d363e264ca89f29a280b748f, type: 2}
+  slowCall: {fileID: 11400000, guid: ece15facb42c8b0428b7a866a787ca11, type: 2}
+  tauntCall: {fileID: 11400000, guid: 3af25196f802e65478449f851479d9c2, type: 2}
+  tauntAggroTarget: {fileID: 0}
+--- !u!114 &114990066692797164
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363964900765466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec8b462eb91400e44a1c674859fde9b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  preset: {fileID: 11400000, guid: 36ec02dd5608f4340b21f713b85f8814, type: 2}
+  loadRefValues: 1
+  gC: {fileID: 0}
+  health: {fileID: 0}
+  controller: {fileID: 0}
+  stateC: {fileID: 0}
+  condM: {fileID: 0}
+  agent: {fileID: 0}
+  triggerCollider: {fileID: 0}
+  spriteC: {fileID: 0}
+--- !u!135 &135152722707699968
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363964900765466}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!195 &195537024236070852
+NavMeshAgent:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363964900765466}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4

@@ -36,7 +36,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4689025426102558}
   m_Layer: 0
-  m_Name: FxDeathMachine 1
+  m_Name: FxDeathMachine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
