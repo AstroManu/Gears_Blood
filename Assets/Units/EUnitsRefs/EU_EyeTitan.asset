@@ -11,25 +11,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 389aaf16a439a40498944fa751004381, type: 3}
   m_Name: EU_EyeTitan
   m_EditorClassIdentifier: 
-  unitName: Electro Drone
+  unitName: Laser Titan
   unitDescription: Laser Titan
   faction: {fileID: 11400000, guid: 600bae9a360d30647ab409b13ff2629e, type: 2}
-  maxHealth: 300
+  maxHealth: 600
   maxArmor: 0
-  maxShield: 100
+  maxShield: 0
   dmgReducArmor: 1
-  agentType: -334000983
+  agentType: -902729914
   moveSpeed: 3
   moveAccelaration: 50
   moveStoppingDistance: 0.5
   agentPriority: 39
   startState: {fileID: 11400000, guid: cd0705b73c2b648419f2cd33b6142bfe, type: 2}
-  colliderRadius: 0.35
+  colliderRadius: 1.2
   aggroRange: 15
   ability:
-  - ability: {fileID: 11400000, guid: 61ee9d6fbc7fc164dae4d3d39f23e885, type: 2}
+  - ability: {fileID: 11400000, guid: fd88b70df24a52f41add2addcf7f59e4, type: 2}
     minRange: 2
-    maxRange: 8
+    maxRange: 10
     coolDownDuration: 1.5
     castLockDuration: 1
     abilityUseCondition:
@@ -40,7 +40,7 @@ MonoBehaviour:
     castAnimIndex: 01000000
   hitAreaCenter: {x: 0, y: 0, z: 1}
   hitAreaRadius: 0.2
-  spritePrefab: {fileID: 1721264696680672, guid: 1e56c03959cfbd04cbb0e396c857d601,
+  spritePrefab: {fileID: 1721264696680672, guid: 0e180ea1376eecc48b47ab5cedac9bba,
     type: 2}
   deathFx: {fileID: 11400000, guid: c13fe55a89881514880fee8cff700156, type: 2}
   portraitBase: {fileID: 0}

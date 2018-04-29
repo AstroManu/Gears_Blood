@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitName: Mine
   unitDescription: Explode when machines gets too close.
-  faction: {fileID: 11400000, guid: 600bae9a360d30647ab409b13ff2629e, type: 2}
+  faction: {fileID: 11400000, guid: 928d8b21e3845584a99bd0e02a42aad5, type: 2}
   maxHealth: 30
   maxArmor: 0
   maxShield: 0
