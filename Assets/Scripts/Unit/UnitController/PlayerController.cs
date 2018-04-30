@@ -66,6 +66,7 @@ public class PlayerController : UnitController {
 		CursorUI ();
 		SquadAbilityRangeDisplay ();
 		unit.spriteC.faceDirection (unit.spriteC.moveRight);
+		TempMusicCheck ();
 	}
 
 	void PlayerInput (bool cmdMode, float vX, float vY)
@@ -226,6 +227,29 @@ public class PlayerController : UnitController {
 		}
 	}
 	#endregion
+
+	public void TempMusicCheck ()
+	{
+		bool inCombat = false;
+
+//		foreach (PUController pU in squad)
+//		{
+//			if (pU.unit.stateC.currentTarget != null)
+//			{
+//				inCombat = true;
+//			}
+//		}
+
+		if (!inCombat)
+		{
+			Collider[] col = Physics.OverlapSphere (transform.position, 15, unit.preset.faction.aggro);
+			inCombat = col.Length > 0;
+		}
+
+		//Debug.Log ("" + inCombat);
+		unit.gC.TempSwitchMusic (inCombat);
+
+	}
 
 	public override void ReportCast (int castedAbility)
 	{

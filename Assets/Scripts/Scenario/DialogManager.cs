@@ -77,5 +77,6 @@ public class DialogManager : MonoBehaviour {
 		dialogText.text = currentDialog.dialogEvents [dIndex].dialogText;
 		tutorialText.text = currentDialog.dialogEvents [dIndex].tutorialText;
 		tutorialBox.SetActive (currentDialog.dialogEvents [dIndex].tutorialText.Length > 0);
+		AkSoundEngine.PostEvent ("UI_WalkieTalkie", gameObject);
 	}
 }

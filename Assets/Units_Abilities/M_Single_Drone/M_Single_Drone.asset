@@ -23,4 +23,5 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 8952549285bfbd045878a74b4683cd13, type: 2}
     - {fileID: 11400000, guid: 4a4baab4990c553448c0e0ecc119f5f1, type: 2}
     - {fileID: 11400000, guid: 0775bfdef7ff8f94796149d8bf09cdf4, type: 2}
+    - {fileID: 11400000, guid: 1dfa246e6bea1f1419fd725266031db4, type: 2}
     eventInterrupt: []

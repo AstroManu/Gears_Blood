@@ -24,5 +24,6 @@ MonoBehaviour:
     effect:
     - {fileID: 11400000, guid: 96cbdbb18a487b949a6135705b370644, type: 2}
     - {fileID: 11400000, guid: 72f427c25f4a3534eb6363288c462792, type: 2}
+    - {fileID: 11400000, guid: acaab6d6135025549babde987efd7bab, type: 2}
     eventInterrupt:
     - {fileID: 11400000, guid: 1a24b65c79030c04ca024b77ac0cc358, type: 2}

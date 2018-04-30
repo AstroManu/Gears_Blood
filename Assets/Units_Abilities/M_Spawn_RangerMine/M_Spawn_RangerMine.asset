@@ -22,5 +22,6 @@ MonoBehaviour:
     eventRotation: {fileID: 11400000, guid: 7314d0f78b2228942b4a70db0c97ffc9, type: 2}
     effect:
     - {fileID: 11400000, guid: 7e4ba9747d74cc048a3de0f4eb31b247, type: 2}
+    - {fileID: 11400000, guid: a75690da45c9a46479aed08741127689, type: 2}
     eventInterrupt:
     - {fileID: 11400000, guid: 1a24b65c79030c04ca024b77ac0cc358, type: 2}

@@ -42,6 +42,17 @@ public class UnitRef : ScriptableObject {
 	[Tooltip ("PU only. Sprite shown in portrait.")] public Sprite portraitBase;
 	[Tooltip ("PU only. Sprite color overlay for portrait.")] public Sprite portraitColor;
 
+	[Header("AudioEvents VO")]
+	public string BarkAbility;
+	public string BarkAbilityReady;
+	public string BarkAttack;
+	public string BarkFollow;
+	public string BarkLowHealth;
+	public string BarkMove;
+	public string BarkShieldLost;
+	public string BarkArmorLost;
+	public string BarkUnderAttack;
+
 	//Take ref values and create the unit
 	public void LoadUnitFromRef (GameUnit gameUnit)
 	{

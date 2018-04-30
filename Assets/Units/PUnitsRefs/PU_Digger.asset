@@ -57,3 +57,12 @@ MonoBehaviour:
   deathFx: {fileID: 11400000, guid: 0125c52ff73ebfa49991ca18fc3ace42, type: 2}
   portraitBase: {fileID: 21300000, guid: 21e8c89a3e025524097fae37002bf00c, type: 3}
   portraitColor: {fileID: 21300000, guid: 12276d145c008234eb89e22deb18b1d7, type: 3}
+  BarkAbility: VO_Digger_Ability
+  BarkAbilityReady: VO_Digger_AbilityReady
+  BarkAttack: VO_Digger_Attack
+  BarkFollow: VO_Digger_Follow
+  BarkLowHealth: VO_Digger_LowHealth
+  BarkMove: VO_Digger_Move
+  BarkShieldLost: VO_Digger_ShieldLost
+  BarkArmorLost: VO_Digger_ShieldLost
+  BarkUnderAttack: VO_Digger_UnderAttack

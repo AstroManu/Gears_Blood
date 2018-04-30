@@ -8,6 +8,9 @@ public class MenuManager : MonoBehaviour {
 	public string playerName = "Player1";
 	private Player player;
 
+	public string hoverAudioEvent = "UI_Menu_Hover";
+	public string selectAudioEvent = "UI_Menu_Select";
+
 	public MenuButton[] buttons;
 	[HideInInspector] public int currentSelect = 0;
 
@@ -28,6 +31,7 @@ public class MenuManager : MonoBehaviour {
 				currentSelect = 0;
 			}
 			buttons [currentSelect].SelectButton ();
+			AkSoundEngine.PostEvent (hoverAudioEvent, gameObject);
 		}
 
 		if (player.GetButtonDown ("Previous"))
@@ -39,11 +43,13 @@ public class MenuManager : MonoBehaviour {
 				currentSelect = buttons.Length - 1;
 			}
 			buttons [currentSelect].SelectButton ();
+			AkSoundEngine.PostEvent (hoverAudioEvent, gameObject);
 		}
 
 		if (player.GetButtonDown ("Squad1"))
 		{
 			buttons [currentSelect].ActivateButton ();
+			AkSoundEngine.PostEvent (selectAudioEvent, gameObject);
 		}
 		if (player.GetButtonDown ("Squad2"))
 		{

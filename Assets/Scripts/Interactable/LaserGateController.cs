@@ -37,6 +37,7 @@ public class LaserGateController : MonoBehaviour {
 	private void DeactivateGate ()
 	{
 		deactivated = true;
+		AkSoundEngine.PostEvent ("SFX_Activation", gameObject);
 		foreach (GameObject gO in activatedObjects)
 		{
 			gO.SetActive (false);

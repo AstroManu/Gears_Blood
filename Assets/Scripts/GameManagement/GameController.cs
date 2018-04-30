@@ -41,10 +41,17 @@ public class GameController : MonoBehaviour {
 	public string quitScene = "MainMenu";
 	public string nextScene = "MainMenu";
 
+	//Temp
+	private bool lastMusicState = false;
+
 	void Awake ()
 	{
 		StaticRef.gameControllerRef = gameObject;
 		player = ReInput.players.GetPlayer (playerName);
+
+		AkSoundEngine.SetState ("Game", "Gameplay");
+		AkSoundEngine.SetState ("PlayerLife", "Alive");
+		AkSoundEngine.SetSwitch ("Gameplay", "Exploration", StaticRef.audioManagerRef);
 	}
 
 	void Update ()
@@ -66,6 +73,30 @@ public class GameController : MonoBehaviour {
 		{
 			SceneManager.LoadScene (quitScene);
 		}
+	}
+
+	public void TempSwitchMusic (bool inCombat)
+	{
+
+
+		if (inCombat == lastMusicState)
+		{
+			return;
+		}
+
+		lastMusicState = inCombat;
+
+		Debug.Log ("" + inCombat);
+		if (inCombat)
+		{
+			AkSoundEngine.SetState ("Game", "Gameplay");
+			AkSoundEngine.SetState ("PlayerLife", "Alive");
+			AkSoundEngine.SetSwitch ("Gameplay", "Combat", StaticRef.audioManagerRef);
+			return;
+		}
+		AkSoundEngine.SetState ("Game", "Gameplay");
+		AkSoundEngine.SetState ("PlayerLife", "Alive");
+		AkSoundEngine.SetSwitch ("Gameplay", "Exploration", StaticRef.audioManagerRef);
 	}
 
 	public void Victory (WinLostDefinition victoryDefinition)

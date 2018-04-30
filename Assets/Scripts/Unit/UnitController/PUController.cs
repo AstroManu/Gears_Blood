@@ -67,6 +67,7 @@ public class PUController : UnitController {
 		unit.stateC.nextState = followState;
 		activeOrderUI = followUI;
 		activeOrderUI.InitializeUI (this);
+		AkSoundEngine.PostEvent (unit.preset.BarkFollow, gameObject);
 	}
 
 	public void SetStateAttackMove (Vector3 pos)
@@ -75,6 +76,7 @@ public class PUController : UnitController {
 		unit.stateC.nextState = attackMoveState;
 		activeOrderUI = attackMoveUI;
 		activeOrderUI.InitializeUI (this);
+		AkSoundEngine.PostEvent (unit.preset.BarkMove, gameObject);
 	}
 
 	public void SetStateAttackTarget (GameUnit lockedTarget)
@@ -83,6 +85,7 @@ public class PUController : UnitController {
 		unit.stateC.cmdTarget = lockedTarget;
 		activeOrderUI = attackUI;
 		activeOrderUI.InitializeUI (this);
+		AkSoundEngine.PostEvent (unit.preset.BarkAttack, gameObject);
 	}
 
 	public void SetStateForceMove (Vector3 pos)
@@ -99,6 +102,7 @@ public class PUController : UnitController {
 		unit.stateC.nextState = castGroundState;
 		activeOrderUI = castGroundUI;
 		activeOrderUI.InitializeUI (this);
+		AkSoundEngine.PostEvent (unit.preset.BarkAbility, gameObject);
 	}
 
 	public void SetStateCastTarget (GameUnit lockedTarget)
@@ -107,6 +111,7 @@ public class PUController : UnitController {
 		unit.stateC.cmdTarget = lockedTarget;
 		activeOrderUI = castTargetUI;
 		activeOrderUI.InitializeUI (this);
+		AkSoundEngine.PostEvent (unit.preset.BarkAbility, gameObject);
 	}
 
 	public override void ReportCast (int castedAbility)

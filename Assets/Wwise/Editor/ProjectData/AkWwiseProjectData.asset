@@ -13,14 +13,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
   - Guid: '{6C32CC0A-E684-4A1A-853B-CB80D71F3D75}'
-    m_lastTimePart2: -1999264044
-    m_lastTimePsrt1: -294682201
+    m_lastTimePart2: -1999264047
+    m_lastTimePsrt1: -156136192
     ParentPhysicalPath: 
     PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     List: []
   - Guid: '{463D666B-3CA8-4FA5-8B4A-5FEF12B883F6}'
-    m_lastTimePart2: -1999264044
-    m_lastTimePsrt1: -294662144
+    m_lastTimePart2: -1999278713
+    m_lastTimePsrt1: 249194240
     ParentPhysicalPath: 
     PhysicalPath: Virtual Acoustics\Factory Reflect Acoustic Textures.wwu
     List:
@@ -181,15 +181,15 @@ MonoBehaviour:
   autoPopulateEnabled: 1
   AuxBusWwu:
   - Guid: '{DE6BD9B7-1FCD-47FD-AC95-C1BCD03109C7}'
-    m_lastTimePart2: -1999264044
-    m_lastTimePsrt1: -295243685
+    m_lastTimePart2: -1999262182
+    m_lastTimePsrt1: 104824064
     ParentPhysicalPath: 
     PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     List: []
   BankWwu:
   - Guid: '{5D8A6E11-CEC8-413C-B683-67947215619F}'
-    m_lastTimePart2: -1999263245
-    m_lastTimePsrt1: 1653704996
+    m_lastTimePart2: -1999262198
+    m_lastTimePsrt1: -830666496
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List:
@@ -208,19 +208,1013 @@ MonoBehaviour:
   defaultPoolSize: 4096
   EventWwu:
   - Guid: '{7E46AECF-8B76-4048-A578-B255009572DB}'
-    m_lastTimePart2: -1999263244
-    m_lastTimePsrt1: -1217403417
+    m_lastTimePart2: -1999262185
+    m_lastTimePsrt1: -845241344
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List:
-    - Guid: 0727d4c2a6a9ea488431581e9cb8c1e1
-      ID: 1923759162
-      Name: SFX_Death_Drone
-      Path: Default Work Unit\SFX_Death_Drone
+    - Guid: 1e8578a97c22b340b0e6a1d489a00994
+      ID: 1092286908
+      Name: ABL_Destructible_Explosive_Barrel
+      Path: Default Work Unit\Drone\ABL_Destructible_Explosive_Barrel
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: SFX_Death_Drone
+      - ElementName: Drone
+        ObjectType: 4
+      - ElementName: ABL_Destructible_Explosive_Barrel
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: c42a067ce115a749a649bcd6edd19f75
+      ID: -41870053
+      Name: ABL_Digger_Drill
+      Path: Default Work Unit\Digger\ABL_Digger_Drill
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Digger
+        ObjectType: 4
+      - ElementName: ABL_Digger_Drill
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 29cc69be359f544c9fb6c0cb16b44ce3
+      ID: 727084890
+      Name: ABL_Digger_DrillBurrow
+      Path: Default Work Unit\Digger\ABL_Digger_DrillBurrow
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Digger
+        ObjectType: 4
+      - ElementName: ABL_Digger_DrillBurrow
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: e81977bcf4f12644896965d8e0134660
+      ID: -1322607656
+      Name: ABL_Digger_Exit
+      Path: Default Work Unit\Digger\ABL_Digger_Exit
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Digger
+        ObjectType: 4
+      - ElementName: ABL_Digger_Exit
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 44f2b6666f19ec4e9b5024f7dee8532b
+      ID: -511231526
+      Name: ABL_Drone_Melee
+      Path: Default Work Unit\Drone\ABL_Drone_Melee
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Drone
+        ObjectType: 4
+      - ElementName: ABL_Drone_Melee
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: e01da7ac8bc4444ab7542351fb90dce8
+      ID: -673722518
+      Name: ABL_Flamer_Flamethrower_Start
+      Path: Default Work Unit\Flamer\ABL_Flamer_Flamethrower_Start
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Flamer
+        ObjectType: 4
+      - ElementName: ABL_Flamer_Flamethrower_Start
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 4b0a4f25e153f841bb7fa42175e9b871
+      ID: 1828084802
+      Name: ABL_Flamer_Flamethrower_Stop
+      Path: Default Work Unit\Flamer\ABL_Flamer_Flamethrower_Stop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Flamer
+        ObjectType: 4
+      - ElementName: ABL_Flamer_Flamethrower_Stop
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 65097fb82aa7224294cc8f2b3247058e
+      ID: -1315510265
+      Name: ABL_Flamer_Taunt
+      Path: Default Work Unit\Flamer\ABL_Flamer_Taunt
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Flamer
+        ObjectType: 4
+      - ElementName: ABL_Flamer_Taunt
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 8160ee1fdc7c784aa55a203b50da2508
+      ID: -280465771
+      Name: ABL_Mine_DeployMine
+      Path: Default Work Unit\Mines\ABL_Mine_DeployMine
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Mines
+        ObjectType: 4
+      - ElementName: ABL_Mine_DeployMine
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 7f04215ce0238c4a81a290a82840a0e2
+      ID: -703106016
+      Name: ABL_Mine_MineTrigger
+      Path: Default Work Unit\Mines\ABL_Mine_MineTrigger
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Mines
+        ObjectType: 4
+      - ElementName: ABL_Mine_MineTrigger
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 44fb1ef1026a8041939e7afd00493378
+      ID: 2123581765
+      Name: ABL_Ranger_SlowingBolt
+      Path: Default Work Unit\Ranger\ABL_Ranger_SlowingBolt
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ranger
+        ObjectType: 4
+      - ElementName: ABL_Ranger_SlowingBolt
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: b8b3a5951bca034982111d99faf41811
+      ID: 384077765
+      Name: ABL_Sniper_Shot
+      Path: Default Work Unit\Sniper\ABL_Sniper_Shot
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Sniper
+        ObjectType: 4
+      - ElementName: ABL_Sniper_Shot
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: e972c8dc21d5c843a97837f636ede40c
+      ID: -1373877077
+      Name: ABL_Titan_Burrow
+      Path: Default Work Unit\Titan\ABL_Titan_Burrow
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Titan
+        ObjectType: 4
+      - ElementName: ABL_Titan_Burrow
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 749ff59e875ed54faf702f3c587c250c
+      ID: -1932012334
+      Name: ABL_Titan_DeployMine
+      Path: Default Work Unit\Titan\ABL_Titan_DeployMine
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Titan
+        ObjectType: 4
+      - ElementName: ABL_Titan_DeployMine
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 8d1793166a6c3c4fb0da92b55adda8f5
+      ID: -478639009
+      Name: ABL_Titan_Laser
+      Path: Default Work Unit\Titan\ABL_Titan_Laser
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Titan
+        ObjectType: 4
+      - ElementName: ABL_Titan_Laser
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 7d76b0153b9c114a8f26af821f8b33eb
+      ID: -95173493
+      Name: ABL_Titan_SpawnDrone
+      Path: Default Work Unit\Titan\ABL_Titan_SpawnDrone
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Titan
+        ObjectType: 4
+      - ElementName: ABL_Titan_SpawnDrone
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 96610fcc9f6ffe499e814bdc722225b9
+      ID: 677514206
+      Name: ABL_Titan_Unburrow
+      Path: Default Work Unit\Titan\ABL_Titan_Unburrow
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Titan
+        ObjectType: 4
+      - ElementName: ABL_Titan_Unburrow
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: caa03ac0a7b43041ace353a1e3e50ee2
+      ID: 1589289402
+      Name: AMB_Start
+      Path: Default Work Unit\Ambiance\AMB_Start
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambiance
+        ObjectType: 4
+      - ElementName: AMB_Start
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 7b2a94b00bd99940886a18c374913b6f
+      ID: 729984210
+      Name: AMB_Stop
+      Path: Default Work Unit\Ambiance\AMB_Stop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambiance
+        ObjectType: 4
+      - ElementName: AMB_Stop
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 2b77795a326ed04aa6ff2a4e8cf82f54
+      ID: 1973954843
+      Name: MUS_START
+      Path: Default Work Unit\MUS_START
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MUS_START
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 9f47b16d9a938e4eb02ff9ddf37dd8c5
+      ID: 410419961
+      Name: MUS_STOP
+      Path: Default Work Unit\MUS_STOP
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MUS_STOP
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: ef0614464fcf1242a49e8582b93af9b9
+      ID: -1211879651
+      Name: Player_Death
+      Path: Default Work Unit\Player_Death
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player_Death
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 735abe169f7d1649a705add501695a98
+      ID: 396047477
+      Name: SFX_Activation
+      Path: Default Work Unit\SFX\SFX_Activation
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: SFX_Activation
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 31d364606ad2ba4e96af9de9a98ba6e2
+      ID: -718865872
+      Name: SFX_Digger_Death
+      Path: Default Work Unit\Digger\SFX_Digger_Death
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Digger
+        ObjectType: 4
+      - ElementName: SFX_Digger_Death
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: e54610643034d74db856a9d06143ec01
+      ID: 1398706246
+      Name: SFX_Drone_Alert
+      Path: Default Work Unit\Drone\SFX_Drone_Alert
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Drone
+        ObjectType: 4
+      - ElementName: SFX_Drone_Alert
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 62cdb26753fa5e44b84c8753881f57bc
+      ID: -1071860334
+      Name: SFX_Drone_Death
+      Path: Default Work Unit\Drone\SFX_Drone_Death
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Drone
+        ObjectType: 4
+      - ElementName: SFX_Drone_Death
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: ca43eb5da364894f95810b25b2178776
+      ID: -358929014
+      Name: SFX_Drone_Language
+      Path: Default Work Unit\Drone\SFX_Drone_Language
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Drone
+        ObjectType: 4
+      - ElementName: SFX_Drone_Language
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 2797c1e2eebef24eae24f17264be2937
+      ID: -1398093824
+      Name: SFX_Drone_Unburrow
+      Path: Default Work Unit\Drone\SFX_Drone_Unburrow
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Drone
+        ObjectType: 4
+      - ElementName: SFX_Drone_Unburrow
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 496773c68f16d543be3b1d292f08afd3
+      ID: -1875729545
+      Name: SFX_Flamer_Death
+      Path: Default Work Unit\Flamer\SFX_Flamer_Death
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Flamer
+        ObjectType: 4
+      - ElementName: SFX_Flamer_Death
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 5ec4af68e0ab8043afaba33008c67b69
+      ID: -1242151737
+      Name: SFX_LaserGate
+      Path: Default Work Unit\SFX\SFX_LaserGate
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: SFX_LaserGate
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 13936ac6e962fd49814b23d282c69d9f
+      ID: 379146405
+      Name: SFX_Platform_Interrupter
+      Path: Default Work Unit\SFX\SFX_Platform_Interrupter
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: SFX_Platform_Interrupter
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 79af63900d7eea4a92a9b24fcac3c611
+      ID: -652233159
+      Name: SFX_Ranger_Death
+      Path: Default Work Unit\Ranger\SFX_Ranger_Death
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ranger
+        ObjectType: 4
+      - ElementName: SFX_Ranger_Death
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: a57936a58b433c40a2cb57b92c46b36a
+      ID: -2146641069
+      Name: SFX_Sniper_Death
+      Path: Default Work Unit\Sniper\SFX_Sniper_Death
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Sniper
+        ObjectType: 4
+      - ElementName: SFX_Sniper_Death
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 206cea1db658d44c8825e3fc9fc31fdb
+      ID: -1341993642
+      Name: SFX_Titan_Alert
+      Path: Default Work Unit\Titan\SFX_Titan_Alert
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Titan
+        ObjectType: 4
+      - ElementName: SFX_Titan_Alert
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 993f49730978f543a045a46eba84de44
+      ID: -1966803666
+      Name: SFX_Titan_Footstep
+      Path: Default Work Unit\Titan\SFX_Titan_Footstep
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Titan
+        ObjectType: 4
+      - ElementName: SFX_Titan_Footstep
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 1f8271a54195d749ad77f97674a36294
+      ID: -2131490892
+      Name: UI_Menu_Hover
+      Path: Default Work Unit\UI\UI_Menu_Hover
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: UI_Menu_Hover
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: a2f44984f57104449f9f43a9fa2b238f
+      ID: -820400986
+      Name: UI_Menu_Select
+      Path: Default Work Unit\UI\UI_Menu_Select
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: UI_Menu_Select
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 44d422445e04d44e9f866572c80f713d
+      ID: -2040749841
+      Name: UI_WalkieTalkie
+      Path: Default Work Unit\UI\UI_WalkieTalkie
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: UI_WalkieTalkie
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: deea691ff0df9c448ce80165d8433102
+      ID: 2055399066
+      Name: VO_Digger_Ability
+      Path: Default Work Unit\Digger\VO\VO_Digger_Ability
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Digger
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Digger_Ability
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 178d9c3345ad0849b6653bd3e2356676
+      ID: 181605919
+      Name: VO_Digger_AbilityReady
+      Path: Default Work Unit\Digger\VO\VO_Digger_AbilityReady
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Digger
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Digger_AbilityReady
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: c3f29cb52508b0439eec61b0d79eab89
+      ID: 1690050540
+      Name: VO_Digger_Attack
+      Path: Default Work Unit\Digger\VO\VO_Digger_Attack
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Digger
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Digger_Attack
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 67341f67e1340d418539a79db856e7ab
+      ID: 826664663
+      Name: VO_Digger_Follow
+      Path: Default Work Unit\Digger\VO\VO_Digger_Follow
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Digger
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Digger_Follow
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 931dc688e173ab428a95c1f3ec32385e
+      ID: -1233608112
+      Name: VO_Digger_LowHealth
+      Path: Default Work Unit\Digger\VO\VO_Digger_LowHealth
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Digger
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Digger_LowHealth
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: cf770bb7667d6c4782fa4a29edf733a5
+      ID: 839753383
+      Name: VO_Digger_Move
+      Path: Default Work Unit\Digger\VO\VO_Digger_Move
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Digger
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Digger_Move
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: a9d8afcfe9f1d841a600df67c090f9f1
+      ID: -1297496299
+      Name: VO_Digger_ShieldLost
+      Path: Default Work Unit\Digger\VO\VO_Digger_ShieldLost
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Digger
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Digger_ShieldLost
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 72cdb9055d7ceb41aece3abe97ce351c
+      ID: 1962382942
+      Name: VO_Digger_UnderAttack
+      Path: Default Work Unit\Digger\VO\VO_Digger_UnderAttack
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Digger
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Digger_UnderAttack
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 61577eebd794124ba1377b164c3bdf88
+      ID: -1365210239
+      Name: VO_Flamer_Ability
+      Path: Default Work Unit\Flamer\VO\VO_Flamer_Ability
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Flamer
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Flamer_Ability
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: d8c620d40f99dd45b908189dcff06869
+      ID: -499347426
+      Name: VO_Flamer_AbilityReady
+      Path: Default Work Unit\Flamer\VO\VO_Flamer_AbilityReady
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Flamer
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Flamer_AbilityReady
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 12c8f5a346faa34ca29516a509bad8d9
+      ID: 1627119105
+      Name: VO_Flamer_AmorLoss
+      Path: Default Work Unit\Flamer\VO\VO_Flamer_AmorLoss
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Flamer
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Flamer_AmorLoss
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: a3f2dc2bd8d69349bfbaced4d824e16f
+      ID: -1683703235
+      Name: VO_Flamer_Attack
+      Path: Default Work Unit\Flamer\VO\VO_Flamer_Attack
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Flamer
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Flamer_Attack
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 5e54344c07fdc8439e1772da26a60ee1
+      ID: 350095942
+      Name: VO_Flamer_Follow
+      Path: Default Work Unit\Flamer\VO\VO_Flamer_Follow
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Flamer
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Flamer_Follow
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 6c044de5d1d66349b2d50fa57c920a0b
+      ID: 1766028723
+      Name: VO_Flamer_LowHealth
+      Path: Default Work Unit\Flamer\VO\VO_Flamer_LowHealth
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Flamer
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Flamer_LowHealth
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: bfe18ce900ecff4490347c8bc63011fd
+      ID: 1252159650
+      Name: VO_Flamer_Move
+      Path: Default Work Unit\Flamer\VO\VO_Flamer_Move
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Flamer
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Flamer_Move
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 4ce3681d0db97040a213dea67af7a183
+      ID: -448403343
+      Name: VO_Flamer_UnderAttack
+      Path: Default Work Unit\Flamer\VO\VO_Flamer_UnderAttack
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Flamer
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Flamer_UnderAttack
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 673f0528f237124f9dbaadcd865bf83e
+      ID: 644092111
+      Name: VO_Ranger_Ability
+      Path: Default Work Unit\Ranger\VO\VO_Ranger_Ability
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ranger
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Ranger_Ability
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: d43ae11df6a4f14a862eefae68a125b4
+      ID: 547811268
+      Name: VO_Ranger_AbilityReady
+      Path: Default Work Unit\Ranger\VO\VO_Ranger_AbilityReady
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ranger
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Ranger_AbilityReady
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: bc165936c5e4804a8975131a25c1885a
+      ID: -1946449909
+      Name: VO_Ranger_Attack
+      Path: Default Work Unit\Ranger\VO\VO_Ranger_Attack
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ranger
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Ranger_Attack
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: bb625c99a7c44d4b83dd748c53bed5f7
+      ID: 653105020
+      Name: VO_Ranger_Follow
+      Path: Default Work Unit\Ranger\VO\VO_Ranger_Follow
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ranger
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Ranger_Follow
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 1d116610b49c52449e41036e00f59150
+      ID: 1431391509
+      Name: VO_Ranger_LowHealth
+      Path: Default Work Unit\Ranger\VO\VO_Ranger_LowHealth
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ranger
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Ranger_LowHealth
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 31f1276c679cd54893698818723ca59f
+      ID: 2129601976
+      Name: VO_Ranger_Move
+      Path: Default Work Unit\Ranger\VO\VO_Ranger_Move
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ranger
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Ranger_Move
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: f9a639016cc27b41adcabd67d05c6af0
+      ID: 530947595
+      Name: VO_Ranger_UnderAttack
+      Path: Default Work Unit\Ranger\VO\VO_Ranger_UnderAttack
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ranger
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Ranger_UnderAttack
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 33ba2aad4d11da4ead0175445af37c01
+      ID: -274003407
+      Name: VO_Sniper_Ability
+      Path: Default Work Unit\Sniper\VO\VO_Sniper_Ability
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Sniper
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Sniper_Ability
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 7fe54b1b7ad0194d9834eaa0e00a2cc3
+      ID: -1859189522
+      Name: VO_Sniper_AbilityReady
+      Path: Default Work Unit\Sniper\VO\VO_Sniper_AbilityReady
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Sniper
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Sniper_AbilityReady
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: c4c180a0d935584b877984588d39662b
+      ID: 1827547405
+      Name: VO_Sniper_Attack
+      Path: Default Work Unit\Sniper\VO\VO_Sniper_Attack
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Sniper
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Sniper_Attack
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 298f98580c1c804ab0cc03cf2b34e122
+      ID: 1555831862
+      Name: VO_Sniper_Follow
+      Path: Default Work Unit\Sniper\VO\VO_Sniper_Follow
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Sniper
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Sniper_Follow
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: bedec12250cd2b4bab9854555155348d
+      ID: 1944720227
+      Name: VO_Sniper_LowHealth
+      Path: Default Work Unit\Sniper\VO\VO_Sniper_LowHealth
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Sniper
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Sniper_LowHealth
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: f2e6e5575dd67447a9db327c3f2acd7d
+      ID: -1171015982
+      Name: VO_Sniper_Move
+      Path: Default Work Unit\Sniper\VO\VO_Sniper_Move
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Sniper
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Sniper_Move
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 36335e4fb1240e44a53c0430b77b2adb
+      ID: -773747935
+      Name: VO_Sniper_UnderAttack
+      Path: Default Work Unit\Sniper\VO\VO_Sniper_UnderAttack
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Sniper
+        ObjectType: 4
+      - ElementName: VO
+        ObjectType: 4
+      - ElementName: VO_Sniper_UnderAttack
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
@@ -229,8 +1223,18 @@ MonoBehaviour:
   - /GearsAndBlood_Integration
   - /GearsAndBlood_Integration/Events
   - /GearsAndBlood_Integration/Events/Default Work Unit
-  - /GearsAndBlood_Integration/SoundBanks
-  - /GearsAndBlood_Integration/SoundBanks/Default Work Unit
+  - /GearsAndBlood_Integration/Events/Default Work Unit/Digger
+  - /GearsAndBlood_Integration/Events/Default Work Unit/Digger/VO
+  - /GearsAndBlood_Integration/Events/Default Work Unit/Drone
+  - /GearsAndBlood_Integration/Events/Default Work Unit/Flamer
+  - /GearsAndBlood_Integration/Events/Default Work Unit/Flamer/VO
+  - /GearsAndBlood_Integration/Events/Default Work Unit/Mines
+  - /GearsAndBlood_Integration/Events/Default Work Unit/Ranger
+  - /GearsAndBlood_Integration/Events/Default Work Unit/Ranger/VO
+  - /GearsAndBlood_Integration/Events/Default Work Unit/SFX
+  - /GearsAndBlood_Integration/Events/Default Work Unit/Sniper
+  - /GearsAndBlood_Integration/Events/Default Work Unit/Titan
+  - /GearsAndBlood_Integration/Events/Default Work Unit/UI
   language: English(US)
   lowerPoolSize: 2048
   m_lastPopulateTimePart2: 0
@@ -239,14 +1243,14 @@ MonoBehaviour:
   preparePoolSize: 0
   RtpcWwu:
   - Guid: '{F27E535F-12E4-4940-A499-C15C74544123}'
-    m_lastTimePart2: -1999264044
-    m_lastTimePsrt1: -295343959
+    m_lastTimePart2: -1999262172
+    m_lastTimePsrt1: -1439816192
     ParentPhysicalPath: 
     PhysicalPath: Game Parameters\Default Work Unit.wwu
     List: []
   - Guid: '{3B167755-FB42-458B-98BF-96F557AFB3B9}'
-    m_lastTimePart2: -1999264044
-    m_lastTimePsrt1: -295343959
+    m_lastTimePart2: -1999278713
+    m_lastTimePsrt1: 249194240
     ParentPhysicalPath: 
     PhysicalPath: Game Parameters\Factory SoundSeed Air Game Syncs.wwu
     List:
@@ -342,23 +1346,94 @@ MonoBehaviour:
         ObjectType: 13
   StateWwu:
   - Guid: '{EDAF3918-B3F3-4B0D-97AB-A78D2CD92A26}'
-    m_lastTimePart2: -1999264044
-    m_lastTimePsrt1: -294682201
+    m_lastTimePart2: -1999263030
+    m_lastTimePsrt1: -1857876224
     ParentPhysicalPath: 
     PhysicalPath: States\Default Work Unit.wwu
-    List: []
+    List:
+    - Guid: 57c16685bb93e44bbed1897b65a833d8
+      ID: 702482391
+      Name: Game
+      Path: Default Work Unit\Game
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game
+        ObjectType: 9
+      ValueGuids:
+      - bytes: e52f3d2d9906cd46a4a500cc68646b78
+      - bytes: 8a9fa14c6b9b404f9249b6976b50532b
+      - bytes: 68a498e5ac979a498ad0edd4f92980f6
+      ValueIcons:
+      - ElementName: Gameplay
+        ObjectType: 8
+      - ElementName: Menu
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      valueIDs: 01bf5505f0256c9bdb3ba32c
+      values:
+      - Gameplay
+      - Menu
+      - None
+    - Guid: ed0869842c1dd3428e50d300a6967f59
+      ID: 444815956
+      Name: PlayerLife
+      Path: Default Work Unit\PlayerLife
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PlayerLife
+        ObjectType: 9
+      ValueGuids:
+      - bytes: 0667cd48bf89a540a11c75f313274ca6
+      - bytes: eba431dedd948446ba7ac781dc5f64d3
+      - bytes: 2b0509b2da7bd34aafbda6ad7e793f54
+      ValueIcons:
+      - ElementName: Alive
+        ObjectType: 8
+      - ElementName: Dead
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      valueIDs: 608f0e2773b9d579db3ba32c
+      values:
+      - Alive
+      - Dead
+      - None
   streamingPoolSize: 1024
   SwitchWwu:
   - Guid: '{93A6CC69-CDF9-42BA-84ED-E065E341514D}'
-    m_lastTimePart2: -1999264044
-    m_lastTimePsrt1: -294702243
+    m_lastTimePart2: -1999262182
+    m_lastTimePsrt1: 104824064
     ParentPhysicalPath: 
     PhysicalPath: Switches\Default Work Unit.wwu
-    List: []
+    List:
+    - Guid: 12ad53a1a4745448bd8aae2c430977df
+      ID: 89505537
+      Name: Gameplay
+      Path: Default Work Unit\Gameplay
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Gameplay
+        ObjectType: 11
+      ValueGuids:
+      - bytes: 1be08f83c0712c41b9634a188eb15f5c
+      - bytes: b701a70668433141b7c18258223afae7
+      ValueIcons:
+      - ElementName: Combat
+        ObjectType: 10
+      - ElementName: Exploration
+        ObjectType: 10
+      valueIDs: bdf6c2a4787fe799
+      values:
+      - Combat
+      - Exploration
   TriggerWwu:
   - Guid: '{C18914EB-225B-4D84-B50C-51DA3DF360BA}'
-    m_lastTimePart2: -1999264044
-    m_lastTimePsrt1: -294641966
+    m_lastTimePart2: -1999264047
+    m_lastTimePsrt1: -156136192
     ParentPhysicalPath: 
     PhysicalPath: Triggers\Default Work Unit.wwu
     List: []

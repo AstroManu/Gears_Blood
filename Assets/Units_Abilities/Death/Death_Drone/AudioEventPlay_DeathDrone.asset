@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5965255e3e34d1548b2ddcec9e6256c7, type: 3}
   m_Name: AudioEventPlay_DeathDrone
   m_EditorClassIdentifier: 
-  eventName: SFX_Death_Drone
+  eventName: SFX_Drone_Death
