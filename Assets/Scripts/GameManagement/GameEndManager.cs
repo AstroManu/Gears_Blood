@@ -59,6 +59,7 @@ public class GameEndManager : MonoBehaviour {
 				if (defeatAchieved)
 				{
 					gC.Defeat (defeat);
+					AkSoundEngine.SetState ("PlayerLife", "Dead");
 					return;
 				}
 			}

@@ -20,16 +20,16 @@ MonoBehaviour:
   - nameTag: Ranger
     portrait: {fileID: 9100000, guid: 8e928d410b336574d9cac7c933f696ad, type: 2}
     nameColor: {r: 0.3254902, g: 0.8, b: 0, a: 1}
-    dialogText: 'Commander, there are too many drones against us ! We''ll have to
-      outsmart them... '
+    dialogText: 'Commander, there are too many drones against us! We''ll have to outsmart
+      them... '
     tutorialText: 
   - nameTag: Flamer
     portrait: {fileID: 9100000, guid: 743f684c9f2ea204dacc90b94abeaadf, type: 2}
     nameColor: {r: 1, g: 0, b: 0, a: 1}
-    dialogText: It's Barbecue time !
+    dialogText: It's time to burn.
     tutorialText: 
   - nameTag: Commander
     portrait: {fileID: 9100000, guid: 3e2aa1168160f419a8f0eda9ecc905b7, type: 2}
     nameColor: {r: 1, g: 1, b: 1, a: 1}
-    dialogText: 'Stay focused ! The last survivors count on us. '
+    dialogText: 'Stay focused! The survivors count on us. '
     tutorialText: Press [RB] to close dialog.

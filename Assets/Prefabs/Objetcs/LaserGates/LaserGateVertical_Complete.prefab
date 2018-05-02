@@ -885,7 +885,8 @@ MonoBehaviour:
   canPress:
     serializedVersion: 2
     m_Bits: 178958336
-  padRadius: {x: 0.35, y: 1, z: 0.35}
+  padRadius: {x: 0.5, y: 1, z: 0.5}
+  isPressed: 0
 --- !u!114 &114598586110508462
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -901,7 +902,8 @@ MonoBehaviour:
   canPress:
     serializedVersion: 2
     m_Bits: 178958336
-  padRadius: {x: 0.35, y: 1, z: 0.35}
+  padRadius: {x: 0.5, y: 1, z: 0.5}
+  isPressed: 0
 --- !u!208 &208198301686376172
 NavMeshObstacle:
   m_ObjectHideFlags: 1

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f801aa39ac7cac34d973c051c0205da6, type: 3}
+  m_Name: SniperDialog2
+  m_EditorClassIdentifier: 
+  dialogEvents:
+  - nameTag: Sniper
+    portrait: {fileID: 9100000, guid: 34c429324436cc04bab1dd64b54a3b8d, type: 2}
+    nameColor: {r: 1, g: 0.93103445, b: 0, a: 1}
+    dialogText: Here it is... the boulevard. The Resistance tried to stop the enemy
+      here, but we were overwhelmed.
+    tutorialText: 
+  - nameTag: Ranger
+    portrait: {fileID: 9100000, guid: 8e928d410b336574d9cac7c933f696ad, type: 2}
+    nameColor: {r: 0.19999993, g: 1, b: 0, a: 1}
+    dialogText: Damn. There must be another Fabricator at the other end.
+    tutorialText: 
+  - nameTag: Commander
+    portrait: {fileID: 9100000, guid: 3e2aa1168160f419a8f0eda9ecc905b7, type: 2}
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogText: Move up carefully and dispatch anything along the way.
+    tutorialText: The Snipers' long range is useful to destroy drones without triggering
+      hordes of them to attack.

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: PU_Flamethrower
   m_EditorClassIdentifier: 
   unitName: Flamethrower
-  unitDescription: Heavy trooper with powerful flametrower
+  unitDescription: Heavy trooper with powerful flamethrower
   faction: {fileID: 11400000, guid: 7a45c81eb139c9944b53c3c36f4a1549, type: 2}
   maxHealth: 200
   maxArmor: 200

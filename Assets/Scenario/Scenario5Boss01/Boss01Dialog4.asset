@@ -15,11 +15,11 @@ MonoBehaviour:
   - nameTag: Commander
     portrait: {fileID: 9100000, guid: 3e2aa1168160f419a8f0eda9ecc905b7, type: 2}
     nameColor: {r: 1, g: 1, b: 1, a: 1}
-    dialogText: 'Here we must''n fail my comrads.  These Titans... We have to destroy
-      it for the sake of the resistance ! '
+    dialogText: Here they are... the Titans. We have to destroy them, or the Resistance
+      is done for.
     tutorialText: 
   - nameTag: Commander
     portrait: {fileID: 9100000, guid: 3e2aa1168160f419a8f0eda9ecc905b7, type: 2}
     nameColor: {r: 1, g: 1, b: 1, a: 1}
-    dialogText: 'To arms ! '
+    dialogText: We cannot fail. To arms!
     tutorialText: 

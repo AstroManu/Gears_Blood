@@ -16,4 +16,4 @@ MonoBehaviour:
     portrait: {fileID: 9100000, guid: 34c429324436cc04bab1dd64b54a3b8d, type: 2}
     nameColor: {r: 1, g: 0.8896551, b: 0, a: 1}
     dialogText: 'Watch out, theses filts laid mines ahead... '
-    tutorialText: You can target mines at range using [R1] and a ranged unit.
+    tutorialText: You can target mines at range using [LT] and a ranged unit.

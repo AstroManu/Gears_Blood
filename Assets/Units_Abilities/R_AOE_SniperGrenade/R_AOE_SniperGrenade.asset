@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 713d08dfe3511ca49acbd8d84788c58c, type: 3}
+  m_Name: R_AOE_SniperGrenade
+  m_EditorClassIdentifier: 
+  abilityName: Metaloid Bomb
+  abilityDescription: Blast anything with a canister full of liquid metal. The metal
+    harden of release, slowing down any units it hit.
+  allowFriendlyFire: 1
+  abilityEvents:
+  - startTime: 0
+    endTime: 2
+    eventPosition: {fileID: 11400000, guid: 88ef8958ec8438549b1ca926d2114d7b, type: 2}
+    eventRotation: {fileID: 11400000, guid: 7314d0f78b2228942b4a70db0c97ffc9, type: 2}
+    effect:
+    - {fileID: 11400000, guid: ef8ab79d719e9d54d8ef811d80609087, type: 2}
+    eventInterrupt: []
+  - startTime: 2
+    endTime: 3
+    eventPosition: {fileID: 11400000, guid: 88ef8958ec8438549b1ca926d2114d7b, type: 2}
+    eventRotation: {fileID: 11400000, guid: 7314d0f78b2228942b4a70db0c97ffc9, type: 2}
+    effect:
+    - {fileID: 11400000, guid: 9c41510ce19a4e042a9e9c897ad3fb2f, type: 2}
+    - {fileID: 11400000, guid: caa01ce6afd99b7438fc5b93d1d35021, type: 2}
+    - {fileID: 11400000, guid: 3c1fc779854bc9b47b1b49d67112c481, type: 2}
+    - {fileID: 11400000, guid: 07519dc012d513d459a8799439b09909, type: 2}
+    eventInterrupt: []

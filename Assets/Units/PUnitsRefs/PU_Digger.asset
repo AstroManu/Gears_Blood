@@ -17,7 +17,7 @@ MonoBehaviour:
   faction: {fileID: 11400000, guid: 7a45c81eb139c9944b53c3c36f4a1549, type: 2}
   maxHealth: 200
   maxArmor: 0
-  maxShield: 100
+  maxShield: 150
   dmgReducArmor: 1
   agentType: -334000983
   moveSpeed: 7.5

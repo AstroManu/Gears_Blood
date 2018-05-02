@@ -20,6 +20,6 @@ MonoBehaviour:
   - nameTag: Commander
     portrait: {fileID: 9100000, guid: 3e2aa1168160f419a8f0eda9ecc905b7, type: 2}
     nameColor: {r: 1, g: 1, b: 1, a: 1}
-    dialogText: Listen up everyone! This thing will try to burrow us under waves of
-      drones. Focus fire on it and bring it down quickly!
+    dialogText: Listen up everyone! This thing will try to bury us. Focus fire on
+      it and bring it down quickly!
     tutorialText: Fabricators build endless amount of drones.

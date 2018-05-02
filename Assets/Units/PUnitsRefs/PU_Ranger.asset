@@ -14,7 +14,7 @@ MonoBehaviour:
   unitName: Ranger
   unitDescription: PH
   faction: {fileID: 11400000, guid: 7a45c81eb139c9944b53c3c36f4a1549, type: 2}
-  maxHealth: 275
+  maxHealth: 200
   maxArmor: 0
   maxShield: 0
   dmgReducArmor: 1

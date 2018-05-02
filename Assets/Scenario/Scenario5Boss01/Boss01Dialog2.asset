@@ -15,8 +15,8 @@ MonoBehaviour:
   - nameTag: Flamer
     portrait: {fileID: 9100000, guid: 743f684c9f2ea204dacc90b94abeaadf, type: 2}
     nameColor: {r: 1, g: 0, b: 0, a: 1}
-    dialogText: 'It wasn''t that hard heh ? '
-    tutorialText: Press [E] or [R1] to continue.
+    dialogText: 'It wasn''t that hard heh? '
+    tutorialText: Press [RB] to continue.
   - nameTag: Commander
     portrait: {fileID: 9100000, guid: 3e2aa1168160f419a8f0eda9ecc905b7, type: 2}
     nameColor: {r: 1, g: 1, b: 1, a: 1}

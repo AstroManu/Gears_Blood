@@ -14,7 +14,7 @@ MonoBehaviour:
   unitName: Sniper
   unitDescription: Stealthy unit with a powerful rifle.
   faction: {fileID: 11400000, guid: 7a45c81eb139c9944b53c3c36f4a1549, type: 2}
-  maxHealth: 275
+  maxHealth: 150
   maxArmor: 0
   maxShield: 0
   dmgReducArmor: 1
@@ -30,7 +30,7 @@ MonoBehaviour:
   - ability: {fileID: 11400000, guid: fd88b70df24a52f41add2addcf7f59e4, type: 2}
     minRange: 2
     maxRange: 12
-    coolDownDuration: 1.2
+    coolDownDuration: 2
     castLockDuration: 1
     abilityUseCondition:
       timer: 0

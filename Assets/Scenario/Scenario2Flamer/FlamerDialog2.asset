@@ -17,7 +17,7 @@ MonoBehaviour:
     nameColor: {r: 1, g: 0, b: 0, a: 1}
     dialogText: Look at them burn! Such a pretty sight... almost brings tears to my
       eyes.
-    tutorialText: Press [E] or [R1] to continue.
+    tutorialText: Press [RB] to continue.
   - nameTag: Commander
     portrait: {fileID: 9100000, guid: 3e2aa1168160f419a8f0eda9ecc905b7, type: 2}
     nameColor: {r: 1, g: 1, b: 1, a: 1}
