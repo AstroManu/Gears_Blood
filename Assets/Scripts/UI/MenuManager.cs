@@ -18,6 +18,9 @@ public class MenuManager : MonoBehaviour {
 	{
 		buttons [0].SelectButton ();
 		player = ReInput.players.GetPlayer (playerName);
+
+		Cursor.lockState = CursorLockMode.Locked;
+		Cursor.visible = false;
 	}
 
 	void Update ()

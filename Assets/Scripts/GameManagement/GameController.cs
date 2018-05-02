@@ -43,11 +43,15 @@ public class GameController : MonoBehaviour {
 
 	//Temp
 	private bool lastMusicState = false;
+	private float lastTimeInCombat = 0f;
+	private float lastTimeUnderAttackBark = 0f;
 
 	void Awake ()
 	{
 		StaticRef.gameControllerRef = gameObject;
 		player = ReInput.players.GetPlayer (playerName);
+		Cursor.lockState = CursorLockMode.Locked;
+		Cursor.visible = false;
 
 		AkSoundEngine.SetState ("Game", "Gameplay");
 		AkSoundEngine.SetState ("PlayerLife", "Alive");
@@ -77,26 +81,34 @@ public class GameController : MonoBehaviour {
 
 	public void TempSwitchMusic (bool inCombat)
 	{
-
-
-		if (inCombat == lastMusicState)
-		{
-			return;
-		}
-
-		lastMusicState = inCombat;
-
-		Debug.Log ("" + inCombat);
 		if (inCombat)
 		{
+			lastTimeInCombat = Time.time;
+		}
+
+		if (inCombat && !lastMusicState)
+		{
+			lastMusicState = true;
 			AkSoundEngine.SetState ("Game", "Gameplay");
 			AkSoundEngine.SetState ("PlayerLife", "Alive");
 			AkSoundEngine.SetSwitch ("Gameplay", "Combat", StaticRef.audioManagerRef);
-			return;
 		}
-		AkSoundEngine.SetState ("Game", "Gameplay");
-		AkSoundEngine.SetState ("PlayerLife", "Alive");
-		AkSoundEngine.SetSwitch ("Gameplay", "Exploration", StaticRef.audioManagerRef);
+		else if ((Time.time - 3 > lastTimeInCombat) && lastMusicState)
+		{
+			lastMusicState = false;
+			AkSoundEngine.SetState ("Game", "Gameplay");
+			AkSoundEngine.SetState ("PlayerLife", "Alive");
+			AkSoundEngine.SetSwitch ("Gameplay", "Exploration", StaticRef.audioManagerRef);
+		}
+	}
+
+	public void TempPlayUnderAttackVO (string voEvent, GameObject unitGO)
+	{
+		if (lastTimeUnderAttackBark < Time.time - 15)
+		{
+			lastTimeUnderAttackBark = Time.time;
+			AkSoundEngine.PostEvent (voEvent, unitGO);
+		}
 	}
 
 	public void Victory (WinLostDefinition victoryDefinition)

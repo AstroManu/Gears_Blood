@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 713d08dfe3511ca49acbd8d84788c58c, type: 3}
   m_Name: M_AOE_Flamethrower
   m_EditorClassIdentifier: 
-  abilityName: New Ability
-  abilityDescription: Description
+  abilityName: Flamethrower
+  abilityDescription: 'A flamethrower: self-explanatory'
   allowFriendlyFire: 0
   abilityEvents:
   - startTime: 0
@@ -24,4 +24,5 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 298dc1626cbb44783ae8b4509fb105f2, type: 2}
     - {fileID: 11400000, guid: 4c475c1c520a44b6cbac2efc9f024388, type: 2}
     - {fileID: 11400000, guid: 6d12b43931fe74086a83ebfecdc82f22, type: 2}
+    - {fileID: 11400000, guid: 1cce16bc91fc41841bb64df1b67d2bb9, type: 2}
     eventInterrupt: []

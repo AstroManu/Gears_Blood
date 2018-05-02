@@ -22,6 +22,7 @@ MonoBehaviour:
     effect:
     - {fileID: 11400000, guid: 41ee3c5d660c1ce4296cd47aa5b537a0, type: 2}
     - {fileID: 11400000, guid: 4f1680823a3052146bcee38235111ce4, type: 2}
+    - {fileID: 11400000, guid: 931f23804e9833c4db7caa13d021502d, type: 2}
     eventInterrupt:
     - {fileID: 11400000, guid: 1a24b65c79030c04ca024b77ac0cc358, type: 2}
   - startTime: 0.4

@@ -34,6 +34,7 @@ public abstract class UnitHealth : MonoBehaviour {
 			return;
 		}
 		DamageOverlayEffect ();
+		TempUnderAttackBark ();
 	}
 
 	public void EnvDamage (float amount)
@@ -87,4 +88,6 @@ public abstract class UnitHealth : MonoBehaviour {
 	public abstract void UpdateDisplay ();
 	public abstract void DamageOverlayEffect ();
 	public abstract void DamageOverlayFallout ();
+
+	public abstract void TempUnderAttackBark ();
 }

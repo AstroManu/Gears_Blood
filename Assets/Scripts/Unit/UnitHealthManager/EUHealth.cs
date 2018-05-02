@@ -46,4 +46,9 @@ public class EUHealth : UnitHealth {
 
 		damageFxLerp = Mathf.Clamp01 (damageFxLerp - Time.deltaTime * 1.5f);
 	}
+
+	public override void TempUnderAttackBark ()
+	{
+		
+	}
 }

@@ -41,7 +41,7 @@ MonoBehaviour:
     castAnimIndex: 00000000
   - ability: {fileID: 11400000, guid: 17a020fc576e33c43b5c23d96a215043, type: 2}
     minRange: 0
-    maxRange: 12
+    maxRange: 14
     coolDownDuration: 5
     castLockDuration: 1
     abilityUseCondition:
@@ -54,7 +54,7 @@ MonoBehaviour:
   hitAreaRadius: 0.5
   spritePrefab: {fileID: 1337349738299924, guid: 923ec7e85327a69489bf12addd4b3ac8,
     type: 2}
-  deathFx: {fileID: 11400000, guid: 0125c52ff73ebfa49991ca18fc3ace42, type: 2}
+  deathFx: {fileID: 11400000, guid: bcf658423f5e5b84490ef09160cda16e, type: 2}
   portraitBase: {fileID: 21300000, guid: 21e8c89a3e025524097fae37002bf00c, type: 3}
   portraitColor: {fileID: 21300000, guid: 12276d145c008234eb89e22deb18b1d7, type: 3}
   BarkAbility: VO_Digger_Ability

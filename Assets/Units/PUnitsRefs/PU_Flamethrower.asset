@@ -53,7 +53,7 @@ MonoBehaviour:
   hitAreaRadius: 0.5
   spritePrefab: {fileID: 1325957962458012, guid: ebc3d0942ac386a49a9befdd9ca9ddaa,
     type: 2}
-  deathFx: {fileID: 11400000, guid: 0125c52ff73ebfa49991ca18fc3ace42, type: 2}
+  deathFx: {fileID: 11400000, guid: 4f3f8c58760f03f4ebbc908699c6a0a6, type: 2}
   portraitBase: {fileID: 21300000, guid: 23ea0c71dd994034e8332afe965970cd, type: 3}
   portraitColor: {fileID: 21300000, guid: 891c4d5b54a8b4145843200039958cfa, type: 3}
   BarkAbility: VO_Flamer_Ability
@@ -63,5 +63,5 @@ MonoBehaviour:
   BarkLowHealth: VO_Flamer_LowHealth
   BarkMove: VO_Flamer_Move
   BarkShieldLost: VO_Flamer_ArmorLoss
-  BarkArmorLost: VO_Flamer_ArmorLost
+  BarkArmorLost: VO_Flamer_ArmorLoss
   BarkUnderAttack: VO_Flamer_UnderAttack

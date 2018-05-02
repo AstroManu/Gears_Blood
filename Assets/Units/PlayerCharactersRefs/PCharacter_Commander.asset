@@ -31,4 +31,15 @@ MonoBehaviour:
   hitAreaRadius: 0.5
   spritePrefab: {fileID: 1793391710092534, guid: e218fbc1512723a438bcf66b8410b531,
     type: 2}
-  deathFx: {fileID: 11400000, guid: 0125c52ff73ebfa49991ca18fc3ace42, type: 2}
+  deathFx: {fileID: 11400000, guid: e715d34bb48bc924bbffbbe48071ee0f, type: 2}
+  portraitBase: {fileID: 0}
+  portraitColor: {fileID: 0}
+  BarkAbility: 
+  BarkAbilityReady: 
+  BarkAttack: 
+  BarkFollow: 
+  BarkLowHealth: 
+  BarkMove: 
+  BarkShieldLost: 
+  BarkArmorLost: 
+  BarkUnderAttack: 

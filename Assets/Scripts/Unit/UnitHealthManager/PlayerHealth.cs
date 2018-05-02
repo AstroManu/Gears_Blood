@@ -46,4 +46,9 @@ public class PlayerHealth : UnitHealth {
 
 		damageFxLerp = Mathf.Clamp01 (damageFxLerp - Time.deltaTime * 1.25f);
 	}
+
+	public override void TempUnderAttackBark ()
+	{
+		
+	}
 }

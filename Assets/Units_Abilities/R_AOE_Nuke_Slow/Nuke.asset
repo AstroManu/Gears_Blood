@@ -30,6 +30,5 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 9c41510ce19a4e042a9e9c897ad3fb2f, type: 2}
     - {fileID: 11400000, guid: caa01ce6afd99b7438fc5b93d1d35021, type: 2}
     - {fileID: 11400000, guid: 3c1fc779854bc9b47b1b49d67112c481, type: 2}
-    - {fileID: 11400000, guid: 2d78e24dead343b41bfd403767f4d95c, type: 2}
-    eventInterrupt:
-    - {fileID: 11400000, guid: 1a24b65c79030c04ca024b77ac0cc358, type: 2}
+    - {fileID: 11400000, guid: 07519dc012d513d459a8799439b09909, type: 2}
+    eventInterrupt: []
