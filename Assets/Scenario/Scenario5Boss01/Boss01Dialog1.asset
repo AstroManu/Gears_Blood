@@ -26,7 +26,7 @@ MonoBehaviour:
   - nameTag: Flamer
     portrait: {fileID: 9100000, guid: 743f684c9f2ea204dacc90b94abeaadf, type: 2}
     nameColor: {r: 1, g: 0, b: 0, a: 1}
-    dialogText: It's time to burn.
+    dialogText: It's time for them to burn, methink.
     tutorialText: 
   - nameTag: Commander
     portrait: {fileID: 9100000, guid: 3e2aa1168160f419a8f0eda9ecc905b7, type: 2}
