@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f801aa39ac7cac34d973c051c0205da6, type: 3}
+  m_Name: DiggerDialog2
+  m_EditorClassIdentifier: 
+  dialogEvents:
+  - nameTag: Commander
+    portrait: {fileID: 9100000, guid: 3e2aa1168160f419a8f0eda9ecc905b7, type: 2}
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogText: This laser gate block our path. But one of the pad is on the other
+      side.
+    tutorialText: 
+  - nameTag: Digger
+    portrait: {fileID: 9100000, guid: 5e2eaf15af12c6e47aa7a6da0707f8ea, type: 2}
+    nameColor: {r: 0, g: 0.627451, b: 1, a: 1}
+    dialogText: Don't worry boss! I can dig under that gate. Just give the order!
+    tutorialText: The digger's ability is Dig. Aim past the gate, hold [X] and release
+      to send the Digger across.
+  - nameTag: Commander
+    portrait: {fileID: 9100000, guid: 3e2aa1168160f419a8f0eda9ecc905b7, type: 2}
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogText: Excellent.
+    tutorialText: You can send the Digger on the other pad.

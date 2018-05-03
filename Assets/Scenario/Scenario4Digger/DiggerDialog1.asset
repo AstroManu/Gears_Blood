@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f801aa39ac7cac34d973c051c0205da6, type: 3}
+  m_Name: DiggerDialog1
+  m_EditorClassIdentifier: 
+  dialogEvents:
+  - nameTag: Digger
+    portrait: {fileID: 9100000, guid: 5e2eaf15af12c6e47aa7a6da0707f8ea, type: 2}
+    nameColor: {r: 0, g: 0.6275863, b: 1, a: 1}
+    dialogText: Hey Boss! Found what you wanted. Titans are gathering in the center
+      of the city.
+    tutorialText: Press [RB] on the gamepad to continue...
+  - nameTag: Commander
+    portrait: {fileID: 9100000, guid: 3e2aa1168160f419a8f0eda9ecc905b7, type: 2}
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    dialogText: They must be preparing to finish the Resistance. Time is running short.
+    tutorialText: 
+  - nameTag: Sniper
+    portrait: {fileID: 9100000, guid: 34c429324436cc04bab1dd64b54a3b8d, type: 2}
+    nameColor: {r: 1, g: 0.92941177, b: 0, a: 1}
+    dialogText: We can cut throught this district. We're almost there.
+    tutorialText: 
