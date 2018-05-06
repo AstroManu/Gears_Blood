@@ -4,6 +4,6 @@ DEJ 2018
 
 Équipe de projet : 
 
-Mathieu Auger
 Manuel Bergeron
 Alexis Harvey
+Eve Gaboury
